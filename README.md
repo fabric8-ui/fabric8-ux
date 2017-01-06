@@ -1,9 +1,7 @@
-# Almighty UX Repo
+# User Experience Repo
 
-This repo is designed to house User Experience issues related to the Almighty project.
-All information is tracked by the UXD Team.
+This repo is for user experience issues related to the planner and platform.
 
-Pertinent design documents (research, wireframes, mockups, etc.) will be kept in [almighty-devdoc][1]. You can also view them at devdoc.almighty.io under [UX Overview][2].
+All information is tracked by the User Experience Design Team.
 
-[1]: https://github.com/almighty/almighty-devdoc/tree/master/ux
-[2]: http://devdoc.almighty.io/ux/ux-overview.html
+This open format enables community members and team members to easily access design documentation and assets.
