@@ -5,15 +5,15 @@ var pkg = require('./package.json');
 // Copy libraries from /node_modules to their respective locations
 gulp.task('copy', function() {
     gulp.src(['node_modules/patternfly/dist/css/**'])
-        .pipe(gulp.dest('site/css'))
+        .pipe(gulp.dest('docs/css'))
 
     gulp.src(['node_modules/patternfly/dist/js/patternfly.min.js', 'node_modules/patternfly/node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/patternfly/node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('site/js'))
+        .pipe(gulp.dest('docs/js'))
 
     gulp.src([
             'node_modules/patternfly/dist/fonts/**',
         ])
-        .pipe(gulp.dest('site/fonts'))
+        .pipe(gulp.dest('docs/fonts'))
 });
 
 // Configure the browserSync task
