@@ -22,7 +22,8 @@ gulp.task('serve', function() {
         server: {
             baseDir: './'
         },
-    })
+    });
+    gulp.watch('*.html').on('change', browserSync.reload);
 });
 
 // Run everything
