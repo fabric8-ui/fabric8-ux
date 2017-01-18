@@ -1,3 +1,4 @@
 /* add files for git to ignore */
 
 node_modules
+.idea
