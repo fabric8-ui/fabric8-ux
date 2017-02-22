@@ -65,17 +65,17 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('src/js'))
 });
 
-// Configure the browserSync task
-gulp.task('serve', function() {
-    browserSync.init({
-        server: {
-            baseDir: './'
-        },
-    });
-    gulp.watch('app/sass/**.scss', ['sass-watch']);
-    gulp.watch('src/docs/*.md', ['markdown-watch']);
-    gulp.watch('**/*.html').on('change', browserSync.reload);
-});
+// // Configure the browserSync task
+// gulp.task('serve', function() {
+//     browserSync.init({
+//         server: {
+//             baseDir: './'
+//         },
+//     });
+//     gulp.watch('app/sass/**.scss', ['sass-watch']);
+//     gulp.watch('src/docs/*.md', ['markdown-watch']);
+//     gulp.watch('**/*.html').on('change', browserSync.reload);
+// });
 
 // Run everything
 gulp.task('default', ['sass', 'copy', 'markdown']);

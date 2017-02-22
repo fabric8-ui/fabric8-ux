@@ -1,0 +1,4 @@
+name: Fabric8 UXD
+markdown: kramdown
+sass:
+    style: compressed
