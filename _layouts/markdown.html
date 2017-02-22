@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
-        <!-- link to main stylesheet -->
+        <!-- link to main stylesheet for GitHub pages -->
         <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/_site/css/styles.css">
+        <!-- link to main stylesheet for local development -->
+        <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/styles.css">
     </head>
-    <body>
+    <body onload='myInit();'>
         <nav class="navbar navbar-default navbar-pf" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
@@ -14,7 +16,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ site.github.url }}">
                 <img src="src/img/fabric8.png" alt="Fabric8 Planner User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
                 </a>
             </div>
@@ -44,7 +46,7 @@
             </div>
         </nav>
         <section>
-            <div class="container-fluid" id="markdownTable">
+            <div class="container-fluid markdown-table">
         
                 {{ content }}
         
@@ -68,5 +70,11 @@
         <script src="{{ site.github.url }}/js/patternfly/patternfly.min.js"></script>
         <!-- Place this tag in your head or just before your close body tag. -->
         <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script>
+$("table>tbody>tr>td:contains('Done')").addClass("green");
+$("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
+$("table>tbody>tr>td:contains('In Progress')").addClass("orange");
+$("table>tbody>tr>td:contains('TBD')").addClass("red");
+        </script>
     </body>
 </html>
