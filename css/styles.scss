@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// PatternFly import
+//@import "patternfly/patternfly";
+
+// Variables to modify font folders
+// $icon-font-path:      "../fonts/bootstrap";
+// $fa-font-path:        "../fonts/font-awesome";
+
+// Imports
+@import "patternfly-sass/assets/stylesheets/_patternfly";
+// @import "_bootstrap";
+@import "font-awesome/font-awesome";
+
+// Site styles
+@import "base";
+@import "invision-links";
