@@ -26,7 +26,7 @@ title: Fabric8 UXD
 | Boards                                            | Visual                | TBD           |                   |                   |
 | Codebases                                         | Wireframe             | Adam          | In Progress       | 02/07/2017        | [https://redhat.invisionapp.com/share/FXACSF1AP](https://redhat.invisionapp.com/share/FXACSF1AP)
 | Codebases                                         | Visual                | TBD           |                   |                   |
-| Comments                                          | Wireframe             | Monica        | Ready for Dev     | 12/14/2016        | [https://redhat.invisionapp.com/share/6E9OIX4YB](https://redhat.invisionapp.com/share/6E9OIX4YB)
+| Comments                                          | Wireframe             | Monica        | Ready for Dev     | 12/14/2016        | [https://redhat.invisionapp.com/share/6E9OIX4YB](https://redhat.invisionapp.com/share/6E9OIX4YB)         | [UX GitHub Issue 65](https://github.com/fabric8io/fabric8-ux/issues/65)
 | Comments                                          | Visual                | Sunil         |                   |                   |
 | Drag and Drop - Mobile                            | Wireframe             | Adam          | Ready for Dev     | 10/27/2016        | [https://redhat.invisionapp.com/share/K68ZU1HVE](https://redhat.invisionapp.com/share/K68ZU1HVE)
 | Drag and Drop - Desktop                           | Wireframe             | TBD           |                   |                   |
