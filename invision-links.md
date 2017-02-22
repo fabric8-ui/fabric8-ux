@@ -59,5 +59,6 @@ title: Fabric8 UXD
 | Workspaces                                        | Wireframe             | Adam          | Ready for Dev     | 02/06/2017        | [https://redhat.invisionapp.com/share/GUABZY4PQ](https://redhat.invisionapp.com/share/GUABZY4PQ)
 | Work Item Hierarchy                               | Wireframe             | Catherine     | Ready for Dev     | 02/17/2017        | [https://redhat.invisionapp.com/share/YVA4PGYA3](https://redhat.invisionapp.com/share/YVA4PGYA3)          | [https://github.com/fabric8io/fabric8-ux/issues/88](https://github.com/fabric8io/fabric8-ux/issues/88)
 | Save UI Consistency                               | Wireframe             | Monica        | Ready for Dev     | 02/13/2017        | [https://redhat.invisionapp.com/share/YVA4PGYA3](https://redhat.invisionapp.com/share/4JAEVK23G)          | [GitHub Issue 154](https://github.com/fabric8io/fabric8-ux/issues/154)
+| Modular WorkItem UI + Beahavior                   | Wireframe             | Monica        | Ready for Dev     | 02/06/2017        | [https://redhat.invisionapp.com/share/8QACKL3AY](https://redhat.invisionapp.com/share/8QACKL3AY)         
 
 ###### All markdown written using this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
