@@ -32,6 +32,7 @@ title: Fabric8 UXD
 | Drag and Drop - Desktop                           | Wireframe             | TBD           |                   |                   |
 | Epics                                             | Wireframe             | Sj            | Ready for Dev     |                   | [https://redhat.invisionapp.com/share/QU9U8D8GF](https://redhat.invisionapp.com/share/QU9U8D8GF)
 | Epics                                             | Visual                | Brian         | In Progress       | 01/26/2017        | [https://redhat.invisionapp.com/share/HDA61HNTA](https://redhat.invisionapp.com/share/HDA61HNTA)
+| Filters                                           | Wireframe             | Catherine     | In Progress       |                   | [https://redhat.invisionapp.com/share/56AH8F1XM](https://redhat.invisionapp.com/share/56AH8F1XM)        | [https://github.com/fabric8io/fabric8-ux/issues/158](https://github.com/fabric8io/fabric8-ux/issues/158)
 | IA                                                | Wireframe             | Monica        | In Progress       | 01/17/2017        | [https://redhat.invisionapp.com/share/QP8Z5FMVM](https://redhat.invisionapp.com/share/QP8Z5FMVM)
 | IA                                                | Visual                | TBD           |                   |                   |
 | Icons                                             | Visual                | Brian         | Ready for Dev     | 12/15/2016        | [https://redhat.invisionapp.com/share/2F9N0A7WN](https://redhat.invisionapp.com/share/2F9N0A7WN)
@@ -56,6 +57,6 @@ title: Fabric8 UXD
 | Tags - Mobile                                     | Wireframe             | Sj            | Ready for Dev     |                   | [https://redhat.invisionapp.com/share/3792FJ4K4](https://redhat.invisionapp.com/share/3792FJ4K4)
 | Tags - Mobile                                     | Visual                | TBD           |                   |                   |
 | Workspaces                                        | Wireframe             | Adam          | Ready for Dev     | 02/06/2017        | [https://redhat.invisionapp.com/share/GUABZY4PQ](https://redhat.invisionapp.com/share/GUABZY4PQ)
-| Work Item Hierarchy                               | Wireframe             | Catherine     | In Progress       |                   | [https://redhat.invisionapp.com/share/YVA4PGYA3](https://redhat.invisionapp.com/share/YVA4PGYA3)
+| Work Item Hierarchy                               | Wireframe             | Catherine     | Ready for Dev     | 02/17/2017        | [https://redhat.invisionapp.com/share/YVA4PGYA3](https://redhat.invisionapp.com/share/YVA4PGYA3)          | [https://github.com/fabric8io/fabric8-ux/issues/88](https://github.com/fabric8io/fabric8-ux/issues/88)
 
 ###### All markdown written using this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
