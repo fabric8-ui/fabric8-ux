@@ -6,6 +6,9 @@
   "directories": {
     "doc": "docs"
   },
+  "scripts": {
+    "publish-travis": "master _site"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fabric8io/fabric8-ux.git"
