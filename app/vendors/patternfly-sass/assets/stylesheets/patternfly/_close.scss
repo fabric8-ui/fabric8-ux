@@ -1,0 +1,15 @@
+//
+// Close icons
+// --------------------------------------------------
+
+
+.close {
+  text-shadow: none;
+  z-index: 1;
+  position: relative;
+  @include opacity(.6);
+  &:hover,
+  &:focus {
+    @include opacity(.9);
+  }
+}

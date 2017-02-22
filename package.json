@@ -17,15 +17,24 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.13",
     "gulp-header": "^1.8.8",
     "gulp-sass": "^2.3.2",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
     "gulp-notify": "^2.2.0",
+    "gulp-clean-css": "^2.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-tap": "^0.1.3",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "del": "^2.2.2",
+    "marked": "^0.3.6",
+    "webcomponents.js": "^0.7.23",
     "browser-sync": "^2.18.2"
   },
   "dependencies": {
-    "patternfly": "^3.17.0"
+    "bootstrap-sass": "3.3.7",
+    "gulp-refresh": "^1.1.0"
   }
 }
