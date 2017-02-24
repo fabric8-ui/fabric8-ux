@@ -38,7 +38,7 @@ title: Fabric8 UXD
 | IA                                                | Visual                |               | TBD               |                   |
 | Icons                                             | Visual                | Brian         | Ready for Dev     | 12/15/2016        | [https://redhat.invisionapp.com/share/2F9N0A7WN](https://redhat.invisionapp.com/share/2F9N0A7WN)
 | Iterations                                        | Visual                | Brian         | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/FR9R8G6B9](https://redhat.invisionapp.com/share/FR9R8G6B9)         | [UX GitHub Issue 66](https://github.com/fabric8io/fabric8-ux/issues/66)
-| Iterations                                        | Wireframe             | Sj            | Ready for Dev     | 02/20/2017          [https://redhat.invisionapp.com/share/KA9CAYL7M](https://redhat.invisionapp.com/share/KA9CAYL7M)
+| Iterations                                        | Wireframe             | Sj            | Ready for Dev     | 02/20/2017        | [https://redhat.invisionapp.com/share/KA9CAYL7M](https://redhat.invisionapp.com/share/KA9CAYL7M)
 | Login                                             | Workflow              | Josephine     | Ready for Dev     | 08/24/2016        | [https://redhat.invisionapp.com/share/3695K7XAE](https://redhat.invisionapp.com/share/3695K7XAE)
 | Login                                             | Wireframe             |               | TBD               |                   |
 | Login                                             | Visual                |               | TBD               |                   |
