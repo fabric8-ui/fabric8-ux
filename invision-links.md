@@ -51,7 +51,7 @@ title: Fabric8 UXD
 | Relationship Links                                | Wireframe             | Monica        | Ready for Dev     | 01/15/2016        | [https://redhat.invisionapp.com/share/M28SSTLRJ](https://redhat.invisionapp.com/share/M28SSTLRJ)
 | Relationship Links                                | Visual                | Sunil         | TBD               |                   |
 | Save/Edit Model                                   | Wireframes            | Adam          | In Progress       | 02/07/2017        | [https://redhat.invisionapp.com/share/UAACVQ7XT](https://redhat.invisionapp.com/share/UAACVQ7XT)
-| Scrolling behavior                                | Wireframes            | Sj            | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/QMAK3BLYP](https://redhat.invisionapp.com/share/QMAK3BLYP)
+| Scrolling behavior                                | Wireframes            | Sj            | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/QMAK3BLYP](https://redhat.invisionapp.com/share/QMAK3BLYP)          | [UX GitHub Issue 157](https://github.com/fabric8io/fabric8-ux/issues/157)
 | Simple Search (Filter)                            | Wireframe             | Adam          | Ready for Dev     | 12/02/2016        | [https://redhat.invisionapp.com/share/T79EF22F9](https://redhat.invisionapp.com/share/T79EF22F9)
 | Simple Search (Filter)                            | Visual                |               | TBD               |                   |
 | Tags - Desktop                                    | Wireframe             | Sj            | Ready for Dev     |                   | [https://redhat.invisionapp.com/share/6E8ZFBF2Q](https://redhat.invisionapp.com/share/6E8ZFBF2Q)
