@@ -26,6 +26,7 @@ title: Fabric8 UXD
 | Boards                                            | Visual                |               | TBD               |                   |
 | Codebases                                         | Wireframe             | Adam          | In Progress       | 02/07/2017        | [https://redhat.invisionapp.com/share/FXACSF1AP](https://redhat.invisionapp.com/share/FXACSF1AP)
 | Codebases                                         | Visual                |               | TBD               |                   |
+| Collapsible left panel                            | Wireframe             | Sj            | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/AVAL74W9N](https://redhat.invisionapp.com/share/AVAL74W9N)
 | Comments                                          | Wireframe             | Monica        | Ready for Dev     | 12/14/2016        | [https://redhat.invisionapp.com/share/6E9OIX4YB](https://redhat.invisionapp.com/share/6E9OIX4YB)         | [UX GitHub Issue 65](https://github.com/fabric8io/fabric8-ux/issues/65)
 | Comments                                          | Visual                | Sunil         | In Progress       |                   |
 | Drag and Drop - Mobile                            | Wireframe             | Adam          | Ready for Dev     | 10/27/2016        | [https://redhat.invisionapp.com/share/K68ZU1HVE](https://redhat.invisionapp.com/share/K68ZU1HVE)
@@ -36,8 +37,8 @@ title: Fabric8 UXD
 | IA                                                | Wireframe             | Monica        | In Progress       | 01/17/2017        | [https://redhat.invisionapp.com/share/QP8Z5FMVM](https://redhat.invisionapp.com/share/QP8Z5FMVM)
 | IA                                                | Visual                |               | TBD               |                   |
 | Icons                                             | Visual                | Brian         | Ready for Dev     | 12/15/2016        | [https://redhat.invisionapp.com/share/2F9N0A7WN](https://redhat.invisionapp.com/share/2F9N0A7WN)
-| Iterations                                        | Wireframe             | Sj            | Ready for Dev     |                   | [https://redhat.invisionapp.com/share/KA9CAYL7M](https://redhat.invisionapp.com/share/KA9CAYL7M)
 | Iterations                                        | Visual                | Brian         | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/FR9R8G6B9](https://redhat.invisionapp.com/share/FR9R8G6B9)         | [UX GitHub Issue 66](https://github.com/fabric8io/fabric8-ux/issues/66)
+| Iterations                                        | Wireframe             | Sj            | Ready for Dev     | 02/20/2017          [https://redhat.invisionapp.com/share/KA9CAYL7M](https://redhat.invisionapp.com/share/KA9CAYL7M)
 | Login                                             | Workflow              | Josephine     | Ready for Dev     | 08/24/2016        | [https://redhat.invisionapp.com/share/3695K7XAE](https://redhat.invisionapp.com/share/3695K7XAE)
 | Login                                             | Wireframe             |               | TBD               |                   |
 | Login                                             | Visual                |               | TBD               |                   |
@@ -50,6 +51,7 @@ title: Fabric8 UXD
 | Relationship Links                                | Wireframe             | Monica        | Ready for Dev     | 01/15/2016        | [https://redhat.invisionapp.com/share/M28SSTLRJ](https://redhat.invisionapp.com/share/M28SSTLRJ)
 | Relationship Links                                | Visual                | Sunil         | In Progress       |                   |
 | Save/Edit Model                                   | Wireframes            | Adam          | In Progress       | 02/07/2017        | [https://redhat.invisionapp.com/share/UAACVQ7XT](https://redhat.invisionapp.com/share/UAACVQ7XT)
+| Scrolling behavior                                | Wireframes            | Sj            | Ready for Dev     | 02/23/2017        | [https://redhat.invisionapp.com/share/QMAK3BLYP](https://redhat.invisionapp.com/share/QMAK3BLYP)          | [UX GitHub Issue 157](https://github.com/fabric8io/fabric8-ux/issues/157)
 | Simple Search (Filter)                            | Wireframe             | Adam          | Ready for Dev     | 12/02/2016        | [https://redhat.invisionapp.com/share/T79EF22F9](https://redhat.invisionapp.com/share/T79EF22F9)
 | Simple Search (Filter)                            | Visual                |               | TBD               |                   |
 | Tags - Desktop                                    | Wireframe             | Sj            | Ready for Dev     |                   | [https://redhat.invisionapp.com/share/6E8ZFBF2Q](https://redhat.invisionapp.com/share/6E8ZFBF2Q)
