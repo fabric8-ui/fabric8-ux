@@ -4,3 +4,30 @@
 .full-height {
     height: 100%;
 }
+.green {
+    background-color: $color-pf-green-200;
+}
+.blue {
+    background-color: $color-pf-blue-200;
+}
+.orange {
+    background-color: $color-pf-orange-200;
+}
+.purple {
+    background-color: $color-pf-purple-200;
+}
+.legend {
+    color: $color-pf-black;
+}
+.status-list {
+    .legend {
+        color: $color-pf-black;
+    }
+    list-style: none;
+    padding: 0 5px;
+    li {
+        color: $color-pf-white;
+        margin: 2px 0;
+        padding: 5px;
+    }
+}

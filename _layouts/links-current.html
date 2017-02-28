@@ -39,17 +39,49 @@
                     <li>
                         <a href="https://github.com/fabric8io/fabric8-ux/milestone">Milestones</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="invision-links.html">Designs</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <section>
+            <div class="container-fluid">
+                <div class="pull-left">
+                    <h2>Designs for the Fabric8 Platform and Planner</h2>
+                </div>
+                <div class="pull-right">
+                    <ul class="status-list">
+                        <li>&nbsp;</li>
+                        <li class="blue">UXD complete, ready for implementation</li>
+                        <li class="green">UXD verified correct implementation</li>
+                    </ul>
+                </div>
+                <div class="pull-right">
+                    <ul class="status-list">
+                        <li class="legend">LEGEND</li>
+                        <li class="purple">Future Item, not yet planned</li>
+                        <li class="orange">Currently worked on by UXD</li>
+                    </ul>
+                </div>
+            </div>
             <div class="container-fluid markdown-table">
-        
-                {{ content }}
-        
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#current" aria-controls="current" role="tab" data-toggle="tab">Current</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#future" aria-controls="future" role="tab" data-toggle="tab">Future</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="current">
+                        {{ content }}
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="future">
+                        {% include_relative _site/future-links.html %}
+                    </div>
+                </div>        
             </div><!-- /.container -->
         </section>
         <footer>
@@ -74,7 +106,7 @@
             $("table>tbody>tr>td:contains('Done')").addClass("green");
             $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
             $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
-            $("table>tbody>tr>td:contains('TBD')").addClass("red");
+            $("table>tbody>tr>td:contains('TBD')").addClass("purple");
         </script>
     </body>
 </html>

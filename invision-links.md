@@ -1,9 +1,12 @@
 ---
-layout: markdown
+layout: links-current
 title: Fabric8 UXD
 ---
-# InVision Links
-### dates are provided for reference - in progress items are noted as such
+<div class="container-fluid">
+    <h1 class="pull-left">InVision Links of Current Designs</h1>
+</div>
+
+##### dates are provided for reference - in progress items are noted as such
 
 | Design Title                                      | Type                  | Designer      | Status            | Last Updated      | Link                                                                                                     | Work Item Link
 | :---                                              |:---                   |:---           |:---               |:---               |:---                                                                                                      |:---
