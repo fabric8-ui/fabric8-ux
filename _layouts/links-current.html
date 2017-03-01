@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet for GitHub pages -->
+        <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/_site/css/styles.css">
+        <!-- link to main stylesheet for local development -->
+        <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/styles.css">
+        <!-- jQuery -->
+        <script src="{{ site.github.url }}/js/jquery/jquery.min.js"></script>
+        <!-- webcomponentjs -->
+        <script src="{{ site.github.url }}/js/webcomponents.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="{{ site.github.url }}/js/bootstrap/bootstrap.min.js"></script>
+        <script src="{{ site.github.url }}/js/jquery/jquery.dataTables.min.js"></script>
+        <!-- PatternFly JS -->
+        <script src="{{ site.github.url }}/js/patternfly/patternfly.min.js"></script>
+        <script src="{{ site.github.url }}/js/designSearch.js"></script>
+        <script src="{{ site.github.url }}/js/designSort.js"></script>
+    </head>
+    <body>
+        {% include designs-nav.html %}
+        <!-- Toolbar -->
+        <div class="row toolbar-pf table-view-pf-toolbar" id="toolbar1">
+            <div class="col-sm-12">
+                <form class="toolbar-pf-actions">
+                <div class="form-group toolbar-pf-filter">
+                    <label class="sr-only" for="filter">Rendering Engine</label>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter by Design</button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Filter By Design..." autocomplete="off" id="myInput" onkeyup="myFunction()">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <section>
+            <div class="container-fluid">
+                <div>
+                    <div class="pull-left">
+                        <h1>InVision Links of Designs</h1>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="status-list">
+                            <li class="green">UXD verified with correct implementation</li>
+                            <li class="red">Design are out of date and need to be updated</li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="status-list">
+                            <li class="orange">Currently being worked on by UXD</li>
+                            <li class="blue">UXD complete - ready for implementation</li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="status-list">
+                            <li class="legend"><strong>LEGEND</strong></li>
+                            <li class="purple">Future Item - not yet planned</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+
+                {{ content }}
+
+            </div><!-- /.container -->
+        </section>
+        <footer>
+            <ul>
+                <li><a href="https://github.com/fabric8io/fabric8-uxd">github.com/fabric8io/fabric8-uxd</a></li>
+            </ul>
+        </footer>
+        <script>
+            $("table").addClass("table table-striped table-bordered table-hover").attr("id", "myTable2");
+            // $("table").attr("id", "myTable2");
+
+            $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
+            $("table>tbody>tr>td:contains('Done')").addClass("green");
+            $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
+            $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
+            $("table>tbody>tr>td:contains('TBD')").addClass("purple");
+        </script>
+</html>
