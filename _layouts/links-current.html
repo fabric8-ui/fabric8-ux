@@ -76,7 +76,7 @@
         <script>
             $("table").addClass("table table-striped table-bordered table-hover").attr("id", "myTable2");
             // $("table").attr("id", "myTable2");
-
+            $("table>tbody>tr>td>a").attr("target", "top");
             $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
             $("table>tbody>tr>td:contains('Done')").addClass("green");
             $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
