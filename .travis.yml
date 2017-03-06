@@ -31,9 +31,9 @@ branches:
   - /.*/         # build all branches
 #   - /pages-(.*)/ # test every branch which starts with "pages-"
 
-deploy:
+# deploy:
     # skip_cleanup: true
-    on:
-        branch: master
+#    on:
+#        branch: master
 
 sudo: false # route your build to the container-based infrastructure for a faster build
