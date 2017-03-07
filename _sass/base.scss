@@ -21,12 +21,6 @@
 }
 .blue {
     background-color: $color-pf-blue-200;
-    // &::before {
-    //     font-family: FontAwesome;
-    //     content: '\f00c';
-    //     color: $color-pf-black;
-    //     margin-right: 5px;
-    // }
 }
 .orange {
     background-color: $color-pf-orange-200;
@@ -37,8 +31,9 @@
 .red {
     background-color: $color-pf-red-100;
 }
-.legend {
-    color: $color-pf-black;
+.grey {
+    background-color: $color-pf-black-300;
+    color: $color-pf-black-500 !important;
 }
 .filter-control {
     list-style: none;

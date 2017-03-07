@@ -44,6 +44,12 @@
                     </div>
                     <div class="pull-right">
                         <ul class="status-list">
+                            <li class="purple">Planned - current goal by UXD</li>
+                            <li class="grey">Unplanned - future goal by UXD</li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="status-list">
                             <li class="green">UXD verified with correct implementation</li>
                             <li class="red">Design are out of date and need to be updated</li>
                         </ul>
@@ -57,7 +63,7 @@
                     <div class="pull-right">
                         <ul class="status-list">
                             <li class="legend"><strong>LEGEND</strong></li>
-                            <li class="purple">Future Item - not yet planned</li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
@@ -81,6 +87,7 @@
             $("table>tbody>tr>td:contains('Done')").addClass("green");
             $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
             $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
-            $("table>tbody>tr>td:contains('TBD')").addClass("purple");
+            $("table>tbody>tr>td:contains('TBD')").addClass("grey");
+            $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
         </script>
 </html>
