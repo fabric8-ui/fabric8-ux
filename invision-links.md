@@ -3,7 +3,7 @@ layout: links-current
 title: Fabric8 UXD
 ---
 
-| <a href="javascript:SortTable(0);" class="sort">Design Title | <a href="javascript:SortTable(1);" class="sort">Type</a> | <a href="javascript:SortTable(2);" class="sort">Designer</a> | <a href="javascript:SortTable(3);" class="sort">Status<a/> | <a href="javascript:SortTable(4, 'D', 'mdy');" class="sort">Last Updated</a>           | Link                                  | Work Item Link
+| <a href="javascript:SortTable(0);" class="sort">Design Title | <a href="javascript:SortTable(1);" class="sort">Type</a> | <a href="javascript:SortTable(2);" class="sort">Designer</a> | <a href="javascript:SortTable(3);" class="sort">Status<a/> | <a href="javascript:SortTable(4, 'D', 'mdy');" class="sort">Last Updated</a>           | Design Links                          | Work Item Link
 | :---                                              |:---                   |:---           |:---               |:---               |:---                                                                                                      |:---
 | Add Work Item (Quick Add) - Desktop               | Wireframe             | Monica        | Ready for Dev     | 08/31/2016        | [https://redhat.invisionapp.com/share/XS9EZV3WP](https://redhat.invisionapp.com/share/XS9EZV3WP)
 | Add Work Item (Quick Add) - Desktop               | Visual                | Brian         | Ready for Dev     | 10/14/2016        | [https://redhat.invisionapp.com/share/NU8YPHLJP](https://redhat.invisionapp.com/share/NU8YPHLJP)         | [UX GitHub Issue 36](https://github.com/fabric8io/fabric8-ux/issues/36)
