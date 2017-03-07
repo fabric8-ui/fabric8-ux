@@ -48,6 +48,7 @@
 | Menu | Wireframe | Monica | 09/12/2016 | https://redhat.invisionapp.com/share/YF8W6CC5Z
 | Menu | Visual | TBD
 | Planner - Mobile | Interaction | Adam | 01/26/2017 | https://redhat.invisionapp.com/share/F6A55SUEJ
+| Planner | BoardsView | TBD | 03/07/2017 | 
 | Reordering Items (drag & drop) | Wireframe | Melody, Adam | | https://redhat.invisionapp.com/share/YV9U2DO2R
 | Reordering Items (drag & drop) | Visual | TBD
 | Reordering Items | Wireframe | Melody, Adam | | https://redhat.invisionapp.com/share/QXA0GGXA3
@@ -56,10 +57,13 @@
 | Save/Edit Model | Wireframes | Adam | 02/07/2017 | https://redhat.invisionapp.com/share/UAACVQ7XT
 | Simple Search (Filter) | Wireframe | Adam | 12/02/2016 | https://redhat.invisionapp.com/share/T79EF22F9
 | Simple Search (Filter) | Visual | TBD
+| User Profile Settings Page | Wireframe | TBD | 03/07/2017 |
 | Tags - Desktop | Wireframe | Sj | | https://redhat.invisionapp.com/share/6E8ZFBF2Q
 | Tags - Desktop | Visual | TBD
 | Tags - Mobile | Wireframe | Sj | | https://redhat.invisionapp.com/share/3792FJ4K4
 | Tags - Mobile | Visual | TBD
+| Work Item IDE | Wireframe | Monica | 03/07/2017 | https://redhat.invisionapp.com/share/5UAH0I2BE
+| Work Item Resize Behavior | Wireframe | Monica | 02/07/2017 | https://redhat.invisionapp.com/share/8QACKL3AY
 | Workspaces | Wireframe | Adam | 02/06/2017 | https://redhat.invisionapp.com/share/GUABZY4PQ
 | Bayesian Report (overview) | Wireframe | Jessica | 02/20/2017 | https://redhat.invisionapp.com/share/G4AJCK6HX
 | Bayesian Report (dismis/restore recommendations) | Wireframe | Jessica | 02/20/2017 | https://redhat.invisionapp.com/share/XVAK22KHZ
