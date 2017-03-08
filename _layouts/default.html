@@ -17,18 +17,8 @@
         {% include nav.html %}
         <section>
             <div class="container-fluid">
-                <div class="col-md-6">
-                    {% include_relative _site/readme.html %}
-                </div>
-                <div class="col-md-6">
-                    {{ content }}
-                </div>
+                {{ content }}
             </div><!-- /.container -->
         </section>
-        <footer>
-            <ul>
-                <li><a href="https://github.com/fabric8io/fabric8-uxd">github.com/fabric8io/fabric8-uxd</a></li>
-            </ul>
-        </footer>
     </body>
 </html>
