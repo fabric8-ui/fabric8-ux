@@ -9,7 +9,8 @@
   "scripts": {
     "publish-travis": "master _site",
     "refresh": "gulp cleanVendors && gulp",
-    "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp"
+    "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp",
+    "bundle": "bundle update"
   },
   "repository": {
     "type": "git",
