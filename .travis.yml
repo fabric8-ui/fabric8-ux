@@ -1,4 +1,8 @@
 language: ruby
+cache:
+    bundler: true
+    directories:
+      - node_modules #NPM packages
 rvm:
 - 2.3.3
 
