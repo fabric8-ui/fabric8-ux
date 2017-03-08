@@ -36,9 +36,7 @@ branches:
 #   - /pages-(.*)/ # test every branch which starts with "pages-"
 
 deploy:
-    provider: pages
     skip_cleanup: true
-    github_token: $GITHUB_TOKEN
     on:
         branch: master
 
