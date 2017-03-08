@@ -13,7 +13,6 @@ env:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: ./script/cibuild
 
 # before_install:
 #     - npm install
@@ -38,9 +37,9 @@ branches:
 
 deploy:
     provider: pages
-   skip_cleanup: true
-   github_token: $GITHUB_TOKEN
-   on:
-       branch: master
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    on:
+        branch: master
 
 sudo: false # route your build to the container-based infrastructure for a faster build
