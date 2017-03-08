@@ -25,9 +25,13 @@ You can run this site locally using npm, gulp and jekyll.
 5. run `jekyll serve`
 
 ### Troubleshooting
-If you are having issues with the site, you can run two sets of clean commands:
+If you are having issues with the site building, you can run two sets of clean commands:
 
 - `gulp cleanVendors`
     - This will remove the vendor files that were copied over during the `gulp` process
 - `npm run clean`
     - This will remove your node_modules directory, run `npm install`, run `gulp cleanVendors` to remove any old vendor files, and run `gulp` to copy updated vendor files.
+
+If you have issues with your gem bundles, you can run the following command:
+- `npm run bundle`
+    - This will update the gem bundles. If you do not have node installed, just run `bundle update`.
