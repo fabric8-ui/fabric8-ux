@@ -17,9 +17,12 @@
         {% include nav.html %}
         <section>
             <div class="container-fluid">
-        
-                {{ content }}
-        
+                <div class="col-md-6">
+                    {% include_relative _site/readme.html %}
+                </div>
+                <div class="col-md-6">
+                    {{ content }}
+                </div>
             </div><!-- /.container -->
         </section>
         <footer>

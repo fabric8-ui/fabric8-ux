@@ -1,0 +1,67 @@
+<p><a href="https://travis-ci.org/fabric8io/fabric8-ux"><img src="https://travis-ci.org/fabric8io/fabric8-ux.svg?branch=master" alt="Build Status" /></a> <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License" /></a></p>
+
+<h1 id="user-experience-repo">User Experience Repo</h1>
+
+<p>This repo is for user experience issues related to the planner and platform.</p>
+
+<p>All information is tracked by the User Experience Design Team.</p>
+
+<p>This open format enables community members and team members to easily access design documentation and assets.</p>
+
+<h2 id="local-development">Local Development</h2>
+<p>You can run this site locally using npm, gulp and jekyll.</p>
+
+<h3 id="first-time-build">First Time Build</h3>
+<ol>
+  <li>Verify that you have the following installed:
+    <ul>
+      <li>Node</li>
+      <li>Gulp</li>
+      <li>Jekyll</li>
+    </ul>
+  </li>
+  <li>run <code class="highlighter-rouge">npm install</code></li>
+  <li>run <code class="highlighter-rouge">gulp</code>
+    <ul>
+      <li>this will copy the files from your 
+ npm_modules directory to their respective 
+ locations for the jekyll build process</li>
+    </ul>
+  </li>
+  <li>run <code class="highlighter-rouge">jekyll build</code></li>
+  <li>run <code class="highlighter-rouge">jekyll serve</code>
+    <ul>
+      <li>for viewing locally at http://localhost:4000</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="subsequent-builds">Subsequent Builds</h3>
+<ol>
+  <li>Run the npm command <code class="highlighter-rouge">npm run site</code></li>
+</ol>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>If you are having issues with the site building, you can run two sets of clean commands:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">gulp cleanVendors</code>
+    <ul>
+      <li>This will remove the vendor files that were copied over during the <code class="highlighter-rouge">gulp</code> process</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">npm run clean</code>
+    <ul>
+      <li>This will remove your node_modules directory, run <code class="highlighter-rouge">npm install</code>, run <code class="highlighter-rouge">gulp cleanVendors</code> to remove any old vendor files, and run <code class="highlighter-rouge">gulp</code> to copy updated vendor files.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If you have issues with your gem bundles, you can run the following command:</p>
+<ul>
+  <li><code class="highlighter-rouge">npm run bundle</code>
+    <ul>
+      <li>This will update the gem bundles. If you do not have node installed, just run <code class="highlighter-rouge">bundle update</code>.</li>
+    </ul>
+  </li>
+</ul>
