@@ -2,3 +2,11 @@ name: Fabric8 UXD
 markdown: kramdown
 sass:
     style: compressed
+exclude: [
+    "deploy",
+    "gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "gulpfile.js",
+    "node_modules"
+    ]

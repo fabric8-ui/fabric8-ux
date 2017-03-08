@@ -3,3 +3,5 @@
 node_modules
 .idea
 .sass-cache
+npm-debug.log
+.vscode/

@@ -7,7 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "publish-travis": "master _site"
+    "publish-travis": "master _site",
+    "refresh": "gulp cleanVendors && gulp",
+    "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp",
+    "bundle": "bundle update",
+    "site": "gulp && npm run bundle && jekyll serve"
   },
   "repository": {
     "type": "git",
@@ -20,24 +24,14 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-header": "^1.8.8",
-    "gulp-sass": "^2.3.2",
-    "gulp-rename": "^1.2.2",
     "gulp-notify": "^2.2.0",
-    "gulp-clean-css": "^2.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^2.0.1",
-    "gulp-batch": "^1.0.5",
-    "gulp-tap": "^0.1.3",
-    "gulp-util": "^3.0.8",
-    "gulp-watch": "^4.3.11",
     "del": "^2.2.2",
-    "marked": "^0.3.6",
-    "webcomponents.js": "^0.7.23",
-    "browser-sync": "^2.18.2"
+    "rimraf": "2.6.1"
   },
   "dependencies": {
     "bootstrap-sass": "3.3.7",
-    "gulp-refresh": "^1.1.0"
+    "font-awesome": "4.7.0",
+    "jquery": "3.1.1",
+    "patternfly-sass": "3.21.0"
   }
 }
