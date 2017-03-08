@@ -2,3 +2,7 @@ name: Fabric8 UXD
 markdown: kramdown
 sass:
     style: compressed
+before_install: [
+    "npm run clean",
+    "gem install jekyll"
+]
