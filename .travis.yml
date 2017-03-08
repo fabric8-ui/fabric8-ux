@@ -32,7 +32,7 @@ script:
 branches:
   only:
   - master
-  - gh-pages     # test the gh-pages branch
+# - gh-pages     # test the gh-pages branch
   - /.*/         # build all branches
 #   - /pages-(.*)/ # test every branch which starts with "pages-"
 
