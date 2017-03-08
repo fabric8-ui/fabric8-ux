@@ -22,7 +22,8 @@ script: ./script/cibuild
 #     - npm install
 #     - gem install jekyll
 before_install:
-    - npm run clean
+    - npm install
+    - npm run refresh
     - gem install jekyll
 
 install: true
