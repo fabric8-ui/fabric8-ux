@@ -2,12 +2,14 @@
   "name": "fabric8-ux",
   "version": "1.0.0",
   "description": "Fabric8 Planner User Experience",
-  "main": "index.html",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "publish-travis": "master _site"
+    "publish-travis": "master _site",
+    "refresh": "gulp cleanVendors && gulp",
+    "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,14 @@
     "url": "https://github.com/fabric8io/fabric8-ux/issues"
   },
   "devDependencies": {
-
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "del": "^2.2.2",
+    "rimraf": "2.6.1"
   },
   "dependencies": {
-
+    "bootstrap-sass": "3.3.7",
+    "jquery": "3.1.1",
+    "patternfly-sass": "3.21.0"
   }
 }
