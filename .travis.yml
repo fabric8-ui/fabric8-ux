@@ -6,8 +6,6 @@ addons:
     apt:
         packages:
             - node
-            - gulp
-
 env:
     global:
         - TRIGGER_REPO_SLUG: "fabric8io/fabric8-uxd"
