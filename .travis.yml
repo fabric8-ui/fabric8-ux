@@ -18,10 +18,6 @@ env:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-
-# before_install:
-#     - npm install
-#     - gem install jekyll
 before_install:
     - npm install
     - npm run refresh
