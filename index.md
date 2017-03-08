@@ -4,7 +4,7 @@ title: Fabric8 UXD
 ---
 <div class="container-fluid container-cards-pf">
   <div class="row row-cards-pf">
-    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-sm-offset-2 col-md-offset-3 col-lg-offset-4">
+    <div class="">
       <div class="card-pf card-pf-view card-pf-view-select">
         <div class="card-pf-body">
           <div class="card-pf-top-element">
@@ -27,7 +27,6 @@ title: Fabric8 UXD
               <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" data-style="mega" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
             </div>
           </div>
-
         </div>
         <div class="card-pf-view-checkbox">
           <input type="checkbox">

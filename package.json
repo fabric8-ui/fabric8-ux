@@ -11,7 +11,7 @@
     "refresh": "gulp cleanVendors && gulp",
     "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp",
     "bundle": "bundle update",
-    "start": "gulp && npm run bundle && jekyll serve"
+    "site": "gulp && npm run bundle && jekyll serve"
   },
   "repository": {
     "type": "git",
