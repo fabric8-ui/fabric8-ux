@@ -18,8 +18,6 @@ git remote add upstream "https://$GH_TOKEN@github.com/mindreeper2420/fabric8-ux.
 git fetch upstream
 git reset upstream/gh-pages
 
-echo "fabric8-ux" > CNAME
-
 touch .
 
 git add -A
