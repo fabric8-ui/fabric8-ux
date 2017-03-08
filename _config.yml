@@ -7,5 +7,6 @@ exclude: [
     "gemfile",
     "Gemfile.lock",
     "package.json",
-    "gulpfile.js"
+    "gulpfile.js",
+    "node_modules"
     ]
