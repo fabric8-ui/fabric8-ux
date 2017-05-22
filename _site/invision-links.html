@@ -1,103 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fabric8 UXD</title>
-        <!-- link to main stylesheet for local development -->
-        <link rel="stylesheet" type="text/css" href="/css/styles.css">
-        <!-- jQuery -->
-        <script src="/js/vendor/jquery.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="/js/vendor/bootstrap.min.js"></script>
-        <!-- PatternFly JS -->
-        <script src="/js/vendor/patternfly.min.js"></script>
-        <!-- Site JS -->
-        <script src="/js/designSearch.js"></script>
-        <script src="/js/designSort.js"></script>
-    </head>
-    <body>
-                <nav class="navbar navbar-default navbar-pf" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="">
-                <img src="img/fabric8.png" alt="Fabric8 Planner User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
-                </a>
-            </div>
-            <div class="collapse navbar-collapse navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-primary">
-                    <li class="active">
-                        <a href="invision-links.html">Designs</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/fabric8io/fabric8-ux">Code</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/fabric8io/fabric8-ux/issues">Issues</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/fabric8io/fabric8-ux/milestone/5">Backlog</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/fabric8io/fabric8-ux/milestone">Milestones</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Toolbar -->
-        <div class="row toolbar-pf table-view-pf-toolbar" id="toolbar1">
-            <div class="col-sm-12">
-                <form class="toolbar-pf-actions">
-                    <div class="form-group toolbar-pf-filter">
-                        <label class="sr-only" for="filter">Rendering Engine</label>
-                        <div class="input-group">
-                            <div class="input-group-btn">
-                                <button type="button" class="btn btn-default dropdown-toggle" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter by Design</button>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Filter By Design..." autocomplete="off" id="myInput" onkeyup="myFunction()">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <section>
-            <div class="container-fluid">
-                <div>
-                    <div class="pull-left">
-                        <h1>InVision Links of Designs</h1>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="status-list">
-                            <li class="purple">Planned - current goal by UXD</li>
-                            <li class="grey">Unplanned - future goal by UXD</li>
-                        </ul>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="status-list">
-                            <li class="green">UXD verified with correct implementation</li>
-                            <li class="red">Design are out of date and need to be updated</li>
-                        </ul>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="status-list">
-                            <li class="orange">Currently being worked on by UXD</li>
-                            <li class="blue">UXD complete - ready for implementation</li>
-                        </ul>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="status-list">
-                            <li class="legend"><strong>LEGEND</strong></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
+<head>
+  <title>Fabric8 UXD</title>
+  <!-- link to main stylesheet for local development -->
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <!-- jQuery -->
+  <script src="/js/vendor/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/js/vendor/bootstrap.min.js"></script>
+  <!-- PatternFly JS -->
+  <script src="/js/vendor/patternfly.min.js"></script>
+  <!-- Site JS -->
+  <script src="/js/designSearch.js"></script>
+  <script src="/js/designSort.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-pf" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="">
+      <img src="img/fabric8.png" alt="Fabric8 Planner User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
+    </a>
+  </div>
+  <div class="collapse navbar-collapse navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-primary">
+      <li class="active">
+        <a href="invision-links.html">Designs</a>
+      </li>
+      <li>
+        <a href="https://github.com/fabric8io/fabric8-ux">Code</a>
+      </li>
+      <li>
+        <a href="https://github.com/fabric8io/fabric8-ux/issues">Issues</a>
+      </li>
+      <li>
+        <a href="https://github.com/fabric8io/fabric8-ux/milestone/5">Backlog</a>
+      </li>
+      <li>
+        <a href="https://github.com/fabric8io/fabric8-ux/milestone">Milestones</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-                <table>
+  <!-- Toolbar -->
+  <div class="row toolbar-pf table-view-pf-toolbar" id="toolbar1">
+    <div class="col-sm-12">
+      <form class="toolbar-pf-actions">
+        <div class="form-group toolbar-pf-filter">
+          <label class="sr-only" for="filter">Rendering Engine</label>
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter by Design</button>
+            </div>
+            <input type="text" class="form-control" placeholder="Filter By Design..." autocomplete="off" id="myInput" onkeyup="myFunction()">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <section>
+    <div class="container-fluid">
+      <div>
+        <div class="pull-left">
+          <h1>InVision Links of Designs</h1>
+        </div>
+        <div class="pull-right">
+          <ul class="status-list">
+            <li class="purple">Planned - current goal by UXD</li>
+            <li class="grey">Unplanned - future goal by UXD</li>
+          </ul>
+        </div>
+        <div class="pull-right">
+          <ul class="status-list">
+            <li class="green">UXD verified with correct implementation</li>
+            <li class="red">Design are out of date and need to be updated</li>
+          </ul>
+        </div>
+        <div class="pull-right">
+          <ul class="status-list">
+            <li class="orange">Currently being worked on by UXD</li>
+            <li class="blue">UXD complete - ready for implementation</li>
+          </ul>
+        </div>
+        <div class="pull-right">
+          <ul class="status-list">
+            <li class="legend"><strong>LEGEND</strong></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+
+      <table>
   <thead>
     <tr>
       <th style="text-align: left"><a href="javascript:SortTable(0);" class="sort">Design Title</a></th>
@@ -702,17 +703,17 @@
 
 
 
-            </div><!-- /.container -->
-        </section>
-        <script>
-            $("table").addClass("table table-striped table-bordered table-hover").attr("id", "myTable2");
-            // $("table").attr("id", "myTable2");
-            $("table>tbody>tr>td>a").attr("target", "top");
-            $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
-            $("table>tbody>tr>td:contains('Done')").addClass("green");
-            $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
-            $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
-            $("table>tbody>tr>td:contains('TBD')").addClass("grey");
-            $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
-        </script>
-</html>
+    </div><!-- /.container -->
+  </section>
+  <script>
+  $("table").addClass("table table-striped table-bordered table-hover").attr("id", "myTable2");
+  // $("table").attr("id", "myTable2");
+  $("table>tbody>tr>td>a").attr("target", "top");
+  $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
+  $("table>tbody>tr>td:contains('Done')").addClass("green");
+  $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
+  $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
+  $("table>tbody>tr>td:contains('TBD')").addClass("grey");
+  $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
+  </script>
+  </html>
