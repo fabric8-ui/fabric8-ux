@@ -6,11 +6,8 @@
     > tfoot {
       > tr {
         > th,
-        > td {
-          padding: $table-cell-padding-top $table-cell-padding $table-cell-padding-bottom;
-          > a:hover {
-            text-decoration: none;
-          }
+        > td { padding: $table-cell-padding-top $table-cell-padding $table-cell-padding-bottom;
+          > a:hover { text-decoration: none; }
         }
         > th {
           font-family: "Open Sans";
@@ -24,30 +21,27 @@
       background-color: $color-pf-black-150;
       @include gradient-vertical($start-color: $color-pf-black-100, $end-color: $color-pf-black-200, $start-percent: 0%, $end-percent: 100%);
     }
-    border: 1px solid $table-border-color;
+    border: 1px solid;
+    border-color: $table-border-color;
     > thead,
     > tbody,
     > tfoot {
       > tr {
         > th,
         > td {
-          border: 1px solid $table-border-color;
+          border: 1px solid;
+          border-color: $table-border-color;
         }
       }
     }
-    > thead > tr {
+    > thead
+      > tr {
       > th,
-      > td {
-        border-bottom-width: 1px;
-      }
+      > td { border-bottom-width: 1px; }
     }
     > tbody > tr {
-      &:nth-of-type(even) {
-        background-color: $table-bg-accent;
-      }
-      &:nth-of-type(odd) {
-        background-color: transparent;
-      }
+      &:nth-of-type(even) { background-color: $table-bg-accent; }
+      &:nth-of-type(odd) { background-color: transparent; }
     }
     > tbody > tr:hover {
       > td,
