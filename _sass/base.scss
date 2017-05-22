@@ -1,36 +1,24 @@
 @import "vendor/patternfly/font-awesome";
 
-.full-width {
-  width: 100%;
-}
-.full-height {
-  height: 100%;
-}
+.full-width { width: 100%; }
+.full-height { height: 100%; }
 .sort {
   &::after {
+    margin-left: 5px;
     font-family: FontAwesome;
     content: '\f0dc';
-    margin-left: 5px;
   }
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     text-decoration: none;
   }
 }
-.green {
-  background-color: $color-pf-green-200;
-}
-.blue {
-  background-color: $color-pf-blue-200;
-}
-.orange {
-  background-color: $color-pf-orange-200;
-}
-.purple {
-  background-color: $color-pf-purple-200;
-}
-.red {
-  background-color: $color-pf-red-100;
-}
+.green { background-color: $color-pf-green-200 }
+.blue { background-color: $color-pf-blue-200; }
+.orange { background-color: $color-pf-orange-200; }
+.purple { background-color: $color-pf-purple-200; }
+.red { background-color: $color-pf-red-100; }
 .grey {
   background-color: $color-pf-black-300;
   color: $color-pf-black-500 !important;
@@ -40,20 +28,18 @@
   padding: 0 5px;
   padding: 0 5px;
   li {
-    color: $color-pf-black;;
+    color: $color-pf-black;
     margin: 2px 0;
     padding: 5px;
   }
 }
 .status-list {
-  .legend {
-    color: $color-pf-black;
-  }
-  list-style: none;
+  .legend { color: $color-pf-black; }
   padding: 0 5px;
+  list-style: none;
   li {
-    color: $color-pf-white;
     margin: 2px 0;
     padding: 5px;
+    color: $color-pf-white;
   }
 }
