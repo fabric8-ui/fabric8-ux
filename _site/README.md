@@ -15,14 +15,16 @@ You can run this site locally using npm, gulp and jekyll.
 1. Verify that you have the following installed:
     - Node
     - Gulp
+    - Gem
     - Jekyll
-2. run `npm install`
-3. run `gulp`
+2. run `gem install bundler`
+3. run `npm install`
+4. run `gulp`
     - this will copy the files from your 
     npm_modules directory to their respective 
     locations for the jekyll build process
-4. run `jekyll build`
-5. run `jekyll serve`
+5. run `jekyll build`
+6. run `jekyll serve`
     - for viewing locally at http://localhost:4000
 
 ### Subsequent Builds

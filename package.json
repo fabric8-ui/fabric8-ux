@@ -1,7 +1,7 @@
 {
   "name": "fabric8-ux",
   "version": "1.0.0",
-  "description": "Fabric8 Planner User Experience",
+  "description": "OSIO User Experience",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -9,8 +9,8 @@
   "scripts": {
     "publish-travis": "master _site",
     "refresh": "gulp cleanVendors && gulp",
-    "clean": "rimraf node_modules && npm install && gulp cleanVendors && gulp",
     "bundle": "bundle update",
+    "reinstall": "rimraf node_modules && npm install && gulp cleanVendors && gulp",
     "site": "gulp && npm run bundle && jekyll serve"
   },
   "repository": {
@@ -31,7 +31,7 @@
   "dependencies": {
     "bootstrap-sass": "3.3.7",
     "font-awesome": "4.7.0",
-    "jquery": "3.1.1",
-    "patternfly-sass": "3.21.0"
+    "jquery": "3.2.1",
+    "patternfly-sass": "3.23.2"
   }
 }
