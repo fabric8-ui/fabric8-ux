@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/styles.css">
+  <!-- jQuery -->
+  <script src="{{ site.github.url }}/js/vendor/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="{{ site.github.url }}/js/vendor/bootstrap.min.js"></script>
+  <!-- PatternFly JS -->
+  <script src="{{ site.github.url }}/js/vendor/patternfly.min.js"></script>
+</head>
+<body>
+  {% include nav.html %}
+  <section>
+    <div class="container-fluid">
+      {{ content }}
+    </div><!-- /.container -->
+  </section>
+</body>
+</html>
