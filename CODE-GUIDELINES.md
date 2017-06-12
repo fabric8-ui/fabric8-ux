@@ -7,11 +7,11 @@ title: HTML/CSS Code Guidelines
 
 ## __This is a draft and is still in progress__
 
-Please enforce these guidelines at all times. Small or large, call out what's incorrect.
+Please enforce these guidelines at all times. Small or large, call out what is incorrect.
 
 > Every line of code should appear to be written by a single person, no matter the number of contributors.
 
-This set of rules generate some constraints and conventions. If you run into instances where a convention isn’t obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.
+This set of rules generate some constraints and conventions. If you run into instances where a convention is not obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.
 
 
 ## Table of content (WIP)
@@ -33,7 +33,7 @@ This set of rules generate some constraints and conventions. If you run into ins
   - [Spacing](#spacing)
   - [Shadows](#shadows)
   - [Gradients](#gradients)
-  - [Sass](#sass)
+  - [Less](#less)
   - [Credits and references](#credits-and-references)
 
 <!-- ============================================================ -->
@@ -318,7 +318,6 @@ Follow this comment structure:
 1. Sections
 1. Line
 
-
 ```less
 /**
 * Copyright 2016 Red Hat, Inc
@@ -335,13 +334,10 @@ Follow this comment structure:
 * limitations under the License.
 */
 
-
-
 //
 // Component heading
 // --------------------------------------------------
 //  Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
-
 
 // Section level Comment
 .selector {
@@ -354,12 +350,12 @@ Follow this comment structure:
 
 <!-- PatternFly is license under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). -->
 
-<!-- - Always add the Apache v2.0 license header at the top of each less files. -->
+Always add the <!-- Apache v2.0--> license header at the top of each less files.
 - Leave three blank lines bellow.
 
 ### 2. DocBlock
 
-- Includes the name of the component and an optional comment.
+Includes the name of the component and an optional comment.
 - Leave three blank lines bellow.
 
 ### 3. Section
@@ -371,7 +367,6 @@ The Section comment is a section divider or describes a block of code.
 ### 4. Line
 
 Describes a specific line of code.
-
 
 <!-- ============================================================ -->
 
@@ -436,14 +431,13 @@ Always use classes - avoid using an ID. Use classes over generic element tag for
 
 ```
 
-
 <!-- ### BEM
 
 PatternFly follows the [BEM methodology](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/). It's a way to decouple CSS from HTML, and modularize class names so they can be extended.
 
 Class name structure follows the `{{pf-block}}__{{element}}--{{modifier}}` structure:
 
-```sass
+```less
 .pf-block__element--modifier {}
 ```
 
@@ -461,7 +455,7 @@ Example:
 </div>
 ```
 
-```sass
+```less
 .pf-panel {}                      // Block
 .pf-panel--collapsible {}         // Modifier of block
 
@@ -478,8 +472,6 @@ Example:
 - Every modifier is defined via a block or element.
 - Each class name imparts structural info without binding to exact HTML. -->
 
-
-
 <!-- ============================================================ -->
 
 ## Specificity
@@ -493,7 +485,6 @@ Always keep selectors as shallow as possible.
 .io-search-box {
   .btn {}
 }
-
 
 // Good
 .io-search__button {}
@@ -510,15 +501,13 @@ Limit nesting to the following use cases:
 1. States, pseudo-classes and pseudo-elements
 1. Overwrite Bootstrap
 
-
 For longer style blocks don't nest the modifier code as it reduced the legibility of the code.
 
 #### 2. Media queries
 
-Component-specific media queries should be nested inside the component block. Use [Bootstrap responsive breakpoints mixins](http://getbootstrap.com/css/#grid-media-queries) and remember that OpenShift.io is mobile first.
+Component-specific media queries should be nested inside the component block. Use [Bootstrap responsive breakpoints mixins](http://getbootstrap.com/css/#grid-media-queries) and remember that OpenShift.io is design to work on all devices.
 
 **Do progressive enhancement, not gracefully degrade.**
-
 
 ```less
 .io-nav {
@@ -531,7 +520,7 @@ Component-specific media queries should be nested inside the component block. Us
 
 #### 3. Parent selectors
 
-Make use of [Sass’s parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.
+Make use of the [precompiler's parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.
 
 ```less
 .io-primary-nav {
@@ -607,9 +596,7 @@ Never use `!important` to raise the specificity of a rule. In well architected C
 }
 ```
 
-
 <!-- ============================================================ -->
-
 
 ## Less
 
@@ -654,7 +641,6 @@ There is no point declaring a variable that will never be updated or that is onl
 
 **Don't reinvent the wheel:** Always use variables for spaces, colors, shadows and typography treatment.
 
-
 ### Mixins
 
 The rule of thumb is that if you happen to spot a group of CSS properties that always appear together for a reason (i.e. not a coincidence), you can put them in a mixin instead.
@@ -668,7 +654,6 @@ The keyword for using mixins is **simplicity**:
 - above all keep it simple.
 
 If a mixin ends up being longer than 20 lines or so, then it should be either split into smaller chunks or completely revised.
-
 
 ```less
 // Helper to size an element
@@ -684,7 +669,6 @@ If a mixin ends up being longer than 20 lines or so, then it should be either sp
 ### @extend:{}
 
 Treat @extend:{} with resect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.
-
 
 - Stick to extending placeholders, not existing CSS selectors. Use extend on %placeholders primarily, not on actual selectors.
 - Extend a placeholder as few times as possible in order to avoid side effects.
@@ -727,6 +711,4 @@ Treat @extend:{} with resect. Use @extend:{} only for maintaining relationships 
 This guide is inspired by people we follow and respect:
 
 - **[PatternFly](https://patternfly.org):** [PatternFly 5 Code Guidelines](https://github.com/patternfly/patternfly-css/blob/master/CODE-GUIDELINES.md)
-- **[Mark Otto](http://markdotto.com/):** [Code Guideline](http://codeguide.co/)
-
-Thank you
+- **[Mark Otto](http://markdotto.com/):** [Code Guidelines](http://codeguide.co/)

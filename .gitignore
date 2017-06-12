@@ -5,3 +5,4 @@ node_modules
 .sass-cache
 npm-debug.log
 .vscode/
+_site
