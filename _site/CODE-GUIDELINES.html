@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>HTML/CSS Code Guidelines</title>
-  <!-- link to main stylesheet -->
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
-  <link rel="icon" href="/img/favicon.svg">
-  <!-- jQuery -->
-  <script src="/js/vendor/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="/js/vendor/bootstrap.min.js"></script>
-  <!-- PatternFly JS -->
-  <script src="/js/vendor/patternfly.min.js"></script>
-  <!-- Site JS -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-default navbar-pf" role="navigation">
+  <head>
+    <title>HTML/CSS Code Guidelines</title>
+    <!-- favicon -->
+    <link rel="icon" href="/img/favicon.svg">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <!-- jQuery -->
+    <script src="/js/vendor/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/js/vendor/bootstrap.min.js"></script>
+    <!-- PatternFly JS -->
+    <script src="/js/vendor/patternfly.min.js"></script>
+    <!-- Site JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-pf" role="navigation">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
       <span class="sr-only">Toggle navigation</span>
@@ -34,6 +35,9 @@
       </li>
       <li>
         <a href="ia.html">Information Architecture</a>
+      </li>
+      <li>
+        <a href="assets.html">Design Assets</a>
       </li>
       <li>
         <a href="CODE-GUIDELINES.html">Code Guidelines</a>
@@ -56,9 +60,9 @@
   </div>
 </nav>
 
-  <section>
-    <div class="container-fluid">
-      <h1 id="openshiftio-htmlcss-code-guidelines">OpenShift.io HTML/CSS Code Guidelines</h1>
+    <section>
+      <div class="container-fluid">
+        <h1 id="openshiftio-htmlcss-code-guidelines">OpenShift.io HTML/CSS Code Guidelines</h1>
 
 <h2 id="this-is-a-draft-and-is-still-in-progress"><strong>This is a draft and is still in progress</strong></h2>
 
@@ -741,7 +745,7 @@ Example:
 
 <h3 id="extend">@extend:{}</h3>
 
-<p>Treat @extend:{} with resect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.</p>
+<p>Treat @extend:{} with respect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.</p>
 
 <ul>
   <li>Stick to extending placeholders, not existing CSS selectors. Use extend on %placeholders primarily, not on actual selectors.</li>
@@ -789,7 +793,7 @@ Example:
   <li><strong><a href="http://markdotto.com/">Mark Otto</a>:</strong> <a href="http://codeguide.co/">Code Guidelines</a></li>
 </ul>
 
-    </div><!-- /.container -->
-  </section>
-</body>
+      </div><!-- /.container -->
+    </section>
+  </body>
 </html>
