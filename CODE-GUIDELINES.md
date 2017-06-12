@@ -668,7 +668,7 @@ If a mixin ends up being longer than 20 lines or so, then it should be either sp
 
 ### @extend:{}
 
-Treat @extend:{} with resect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.
+Treat @extend:{} with respect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.
 
 - Stick to extending placeholders, not existing CSS selectors. Use extend on %placeholders primarily, not on actual selectors.
 - Extend a placeholder as few times as possible in order to avoid side effects.
