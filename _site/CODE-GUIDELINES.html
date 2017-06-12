@@ -62,13 +62,13 @@
 
 <h2 id="this-is-a-draft-and-is-still-in-progress"><strong>This is a draft and is still in progress</strong></h2>
 
-<p>Please enforce these guidelines at all times. Small or large, call out what’s incorrect.</p>
+<p>Please enforce these guidelines at all times. Small or large, call out what is incorrect.</p>
 
 <blockquote>
   <p>Every line of code should appear to be written by a single person, no matter the number of contributors.</p>
 </blockquote>
 
-<p>This set of rules generate some constraints and conventions. If you run into instances where a convention isn’t obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.</p>
+<p>This set of rules generate some constraints and conventions. If you run into instances where a convention is not obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.</p>
 
 <h2 id="table-of-content-wip">Table of content (WIP)</h2>
 
@@ -93,7 +93,7 @@
       <li><a href="#spacing">Spacing</a></li>
       <li><a href="#shadows">Shadows</a></li>
       <li><a href="#gradients">Gradients</a></li>
-      <li><a href="#sass">Sass</a></li>
+      <li><a href="#less">Less</a></li>
       <li><a href="#credits-and-references">Credits and references</a></li>
     </ul>
   </li>
@@ -400,13 +400,10 @@
 * limitations under the License.
 */
 
-
-
 //
 // Component heading
 // --------------------------------------------------
 //  Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
-
 
 // Section level Comment
 .selector {
@@ -419,15 +416,15 @@
 
 <!-- PatternFly is license under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). -->
 
-<!-- - Always add the Apache v2.0 license header at the top of each less files. -->
+<p>Always add the <!-- Apache v2.0--> license header at the top of each less files.</p>
 <ul>
   <li>Leave three blank lines bellow.</li>
 </ul>
 
 <h3 id="2-docblock">2. DocBlock</h3>
 
+<p>Includes the name of the component and an optional comment.</p>
 <ul>
-  <li>Includes the name of the component and an optional comment.</li>
   <li>Leave three blank lines bellow.</li>
 </ul>
 
@@ -511,7 +508,7 @@ PatternFly follows the [BEM methodology](http://csswizardry.com/2013/01/mindbemd
 
 Class name structure follows the `__--` structure:
 
-```sass
+```less
 .pf-block__element--modifier {}
 ```
 
@@ -529,7 +526,7 @@ Example:
 </div>
 ```
 
-```sass
+```less
 .pf-panel {}                      // Block
 .pf-panel--collapsible {}         // Modifier of block
 
@@ -559,7 +556,6 @@ Example:
   .btn {}
 }
 
-
 // Good
 .io-search__button {}
 </code></pre>
@@ -581,7 +577,7 @@ Example:
 
 <h4 id="2-media-queries">2. Media queries</h4>
 
-<p>Component-specific media queries should be nested inside the component block. Use <a href="http://getbootstrap.com/css/#grid-media-queries">Bootstrap responsive breakpoints mixins</a> and remember that OpenShift.io is mobile first.</p>
+<p>Component-specific media queries should be nested inside the component block. Use <a href="http://getbootstrap.com/css/#grid-media-queries">Bootstrap responsive breakpoints mixins</a> and remember that OpenShift.io is design to work on all devices.</p>
 
 <p><strong>Do progressive enhancement, not gracefully degrade.</strong></p>
 
@@ -595,7 +591,7 @@ Example:
 
 <h4 id="3-parent-selectors">3. Parent selectors</h4>
 
-<p>Make use of [Sass’s parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.</p>
+<p>Make use of the [precompiler’s parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.</p>
 
 <pre><code class="language-less">.io-primary-nav {
   ...
@@ -790,10 +786,8 @@ Example:
 
 <ul>
   <li><strong><a href="https://patternfly.org">PatternFly</a>:</strong> <a href="https://github.com/patternfly/patternfly-css/blob/master/CODE-GUIDELINES.md">PatternFly 5 Code Guidelines</a></li>
-  <li><strong><a href="http://markdotto.com/">Mark Otto</a>:</strong> <a href="http://codeguide.co/">Code Guideline</a></li>
+  <li><strong><a href="http://markdotto.com/">Mark Otto</a>:</strong> <a href="http://codeguide.co/">Code Guidelines</a></li>
 </ul>
-
-<p>Thank you</p>
 
     </div><!-- /.container -->
   </section>
