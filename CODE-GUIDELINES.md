@@ -30,10 +30,11 @@ This set of rules generate some constraints and conventions. If you run into ins
   - [Comment and Organization](#comment-and-organization)
   - [Naming Selectors](#naming-selectors)
   - [Specificity](#specificity)
+  - [Less](#less)
+<!--
   - [Spacing](#spacing)
   - [Shadows](#shadows)
-  - [Gradients](#gradients)
-  - [Less](#less)
+  - [Gradients](#gradients) -->
   - [Credits and references](#credits-and-references)
 
 <!-- ============================================================ -->
@@ -188,8 +189,9 @@ Positioning comes first because it can remove an element from the normal flow of
 
 Everything else takes place inside the component or without impacting the previous two sections, and thus they come last.
 
-For a complete list of properties and their order, please see [Field CSS Manuals]( http://manuals.gravitydept.com/code/css/properties).
+For our complete list of properties and their order, please see [CSS Property Orders](https://github.com/fabric8io/fabric8-ux/blob/master/src/docs/CSS_Property_Order.md).
 
+Example:
 ```less
 .declaration-order {
   // Positioning
