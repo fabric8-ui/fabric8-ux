@@ -26,7 +26,7 @@ before_install:
 install: true
 
 script:
-    - jekyll build ./_site
+    - jekyll build gh-pages/
 
 # branch whitelist, only for GitHub Pages
 branches:
