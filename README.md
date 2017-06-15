@@ -1,15 +1,19 @@
 [![Build Status](https://travis-ci.org/fabric8io/fabric8-ux.svg?branch=master)](https://travis-ci.org/fabric8io/fabric8-ux) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![codebeat badge](https://codebeat.co/badges/0ca8937c-4201-4d2e-a0b3-9f7d77284838)](https://codebeat.co/projects/github-com-fabric8io-fabric8-ux-master)
 
 # User Experience Repo
 
-This repo is for user experience issues related to the planner and platform.
+Design Issues, Documents and UX Mockups related to the [fabric8-ui](https://github.com/fabric8io/fabric8-ui) and [fabric8-planner](https://github.com/fabric8io/fabric8-planner) repositories.
 
 All information is tracked by the User Experience Design Team.
 
-This open format enables community members and team members to easily access design documentation and assets.
+## Important Links and References
+- [Design Links](https://github.com/fabric8io/fabric8-ux/blob/master/invision-links.md)
+- [Information Architecture](https://github.com/fabric8io/fabric8-ux/blob/master/ia.md)
+- [HTML/CSS Code Guidelines](https://github.com/fabric8io/fabric8-ux/blob/master/code-guidelines.md)
 
 ## Local Development
-You can run this site locally using npm, gulp and jekyll. 
+Want to submit a PR to our site? Run the environment locally using the steps below:
 
 ### First Time Build
 1. Verify that you have the following installed:
