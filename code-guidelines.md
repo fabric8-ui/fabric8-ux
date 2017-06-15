@@ -7,6 +7,8 @@ relative_path: ./
 
 # OpenShift.io HTML/CSS Code Guidelines
 
+----
+
 ## __This is a draft and is still in progress__
 
 Please enforce these guidelines at all times. Small or large, call out what is incorrect.

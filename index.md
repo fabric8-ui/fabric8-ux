@@ -4,6 +4,12 @@ title: fabric8 UXD - User Experience Design
 navbar_active: home
 relative_path: ./
 ---
+
+# Fabric8io Design Documentation
+| design documents and UX mockups for fabric8io and OpenShift.io
+
+----
+
 <div class="container-fluid">
   <div class="col-md-6">
     <h2>
@@ -48,7 +54,7 @@ relative_path: ./
           run <code>jekyll serve</code>
           <ul>
             <li>
-              for viewing locally at http://localhost:4000
+              for viewing locally at <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
             </li>
           </ul>
         </li>
@@ -119,10 +125,10 @@ relative_path: ./
             </p>
             <div class="card-pf-items text-center">
               <div class="card-pf-item">
-                <a class="github-button" href="https://github.com/ntkme/github-buttons/subscription" data-icon="octicon-eye" data-style="mega" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+                <a class="github-button" href="https://github.com/ntkme/github-buttons/subscription" data-icon="octicon-eye" data-size="large" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
               </div>
               <div class="card-pf-item">
-                <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" data-style="mega" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" data-size="large" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
               </div>
             </div>
           </div>
