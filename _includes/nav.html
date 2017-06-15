@@ -1,56 +1,65 @@
-<nav class="navbar navbar-default navbar-pf" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
-      <i class="fa fa-bars fa-2x" aria-hidden="true" title="Toggle navigation" style="color: white;"></i>
-      <span class="sr-only">Toggle navigation</span>
-    </button>
-    <a class="navbar-brand" href="{{ page.relative_path }}">
-      <img src="{{ page.relative_path }}assets/img/fabric8.png" alt="fabric8 User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
-    </a>
-  </div>
-  <div class="collapse navbar-collapse navbar-collapse-1">
-    <!--<ul class="nav navbar-nav navbar-primary persistent-secondary">-->
-    <ul class="nav navbar-nav navbar-primary">
-      <li {% if page.navbar_active == "home" %} class="active"{% endif %}>
-        <a href="{{ page.relative_path }}">Home</a>
-      </li>
-      <li {% if page.navbar_active == "designs" %} class="active"{% endif %}>
-        <a href="{{ page.relative_path }}invision-links">Designs</a>
-      </li>
-      <li {% if page.navbar_active == "ia" %} class="active"{% endif %}>
-        <a href="{{ page.relative_path }}ia">Information Architecture</a>
-      </li>
-      <li {% if page.navbar_active == "resources" %} class="active"{% endif %}>
-        <a href="{{ page.relative_path }}resources">Design Resources</a>
-        <!--<ul class="nav navbar-nav navbar-persistent secondary-nav">
-          <li>
-            <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
-          </li>
-          <li {% if page.navbar_active == "sketch" %} class="active"{% endif %}>
-            <a href="{{ page.relative_path }}src/docs/designs/assets/sketch/sketch.html" target="top">Sketch Components</a>
-          </li>
-          <li>
-            <a href="#">PSD Components</a>
-          </li>
-        </ul>-->
-      </li>
-      <li {% if page.navbar_active == "guidelines" %} class="active"{% endif %}>
-        <a href="{{ page.relative_path }}code-guidelines">Code Guidelines</a>
-      </li>
-      <li>
-        <a href="#">
-          |
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/fabric8io/fabric8-ux/issues">Issues</a>
-      </li>
-      <li>
-        <a href="https://github.com/fabric8io/fabric8-ux/milestones">Milestones</a>
-      </li>
-      <li>
-        <a href="https://github.com/fabric8io/fabric8-ux/wiki">Wiki</a>
-      </li>
-    </ul>
-  </div>
+<nav class="navbar navbar-inverse navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ page.relative_path }}">
+        <img alt="brand" src="{{ page.relative_path }}assets/img/fabric8.png" alt="fabric8 User Experience" width="25px">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li {% if page.navbar_active == "home" %} class="active"{% endif %}>
+          <a href="{{ page.relative_path }}">Home 
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li {% if page.navbar_active == "designs" %} class="active"{% endif %} >
+          <a href="{{ page.relative_path }}invision-links">Designs</a>
+        </li>
+        <li {% if page.navbar_active == "ia" %} class="active dropdown"{% endif %}>
+          <a href="{{ page.relative_path }}ia">Information Architecture</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li {% if page.navbar_active == "sketch" %} class="active"{% endif %}>
+              <a href="{{ page.relative_path }}src/docs/sketch">Sketch Components</a>
+            </li>
+            <li {% if page.navbar_active == "photoshop" %} class="active"{% endif %}>
+              <a href="{{ page.relative_path }}src/docs/photoshop">Photoshop Components</a>
+            </li>
+            <li>
+              <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
+            </li>
+          </ul>
+        </li>
+        <li {% if page.navbar_active == "guidelines" %} class="active"{% endif %}>
+          <a href="{{ page.relative_path }}code-guidelines">Code Guidelines</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GitHub Links <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="https://github.com/fabric8io/fabric8-ux/issues" target="_blank">Issue</a>
+            </li>
+            <li>
+              <a href="https://github.com/fabric8io/fabric8-ux/milestones" target="_blank">Milestone</a>
+            </li>
+            <li>
+              <a href="https://github.com/fabric8io/fabric8-ux/wiki" target="_blank">Wiki</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
