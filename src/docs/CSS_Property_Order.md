@@ -1,3 +1,9 @@
+---
+layout: default
+title: CSS Property Order
+relative_path: ../../
+---
+
 # CSS Property Order
 Related property declarations should be grouped together following the order:
 
