@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![codebeat badge](https://codebeat.co/badges/0ca8937c-4201-4d2e-a0b3-9f7d77284838)](https://codebeat.co/projects/github-com-fabric8io-fabric8-ux-master)
 
-[![Current Sprint Stories](https://badge.waffle.io/fabric8io/fabric8-ux.svg?label=Story%20Pointed&title=Story%20Pointed)](http://waffle.io/fabric8io/fabric8-ux)
+[![Current Sprint Stories](https://badge.waffle.io/fabric8io/fabric8-ux.svg?label=story&title=Story%20Pointed)](http://waffle.io/fabric8io/fabric8-ux)
 
 # User Experience Repo
 
