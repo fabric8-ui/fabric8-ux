@@ -11,3 +11,13 @@ exclude: [
     "node_modules",
     "_site"
     ]
+collections:
+    documents_collection:
+        output: true
+        permalink: /:collection/:name
+        defaults:
+        scope:
+            path: "./src/docs"
+            type: documents
+        values:
+        layout: page

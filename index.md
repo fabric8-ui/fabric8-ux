@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Fabric8 UXD
+title: fabric8 UXD - User Experience Design
+navbar_active: home
+relative_path: ./
 ---
 <div class="container-fluid">
   <div class="col-md-6">
