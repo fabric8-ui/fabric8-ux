@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -7,7 +6,7 @@
     <meta name="author" content="Adam J. Jolicoeur">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="{{ page.relative_path }}assets/img/favicon.svg">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="{{ page.relative_path }}assets/css/styles.css">
     <!-- jQuery -->
@@ -20,7 +19,6 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body>
-    {% include nav.html %}
     <section>
       <div class="container-fluid">
         {{ content }}

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
-    <!-- favicon -->
-    <link rel="icon" href="{{ site.github.url }}img/favicon.svg">
-    <!-- link to main stylesheet for local development -->
-    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}css/styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="fabric8 UXD">
+    <meta name="author" content="Adam J. Jolicoeur">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="{{ page.relative_path }}assets/img/favicon.svg">
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{ page.relative_path }}assets/css/styles.css">
     <!-- jQuery -->
-    <script src="{{ site.github.url }}js/vendor/jquery.min.js"></script>
+    <script src="{{ page.relative_path }}assets/js/vendor/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="{{ site.github.url }}js/vendor/bootstrap.min.js"></script>
+    <script src="{{ page.relative_path }}assets/js/vendor/bootstrap.min.js"></script>
     <!-- PatternFly JS -->
-    <script src="{{ site.github.url }}js/vendor/patternfly.min.js"></script>
+    <script src="{{ page.relative_path }}assets/js/vendor/patternfly.min.js"></script>
     <!-- Site JS -->
-    <script src="{{ site.github.url }}js/designSearch.js"></script>
-    <script src="{{ site.github.url }}js/designSort.js"></script>
+    <script src="{{ page.relative_path }}assets/js/designSearch.js"></script>
+    <script src="{{ page.relative_path }}assets/js/designSort.js"></script>
   </head>
   <body>
     {% include nav.html %}

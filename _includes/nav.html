@@ -1,28 +1,41 @@
 <nav class="navbar navbar-default navbar-pf" role="navigation">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+      <i class="fa fa-bars fa-2x" aria-hidden="true" title="Toggle navigation" style="color: white;"></i>
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="{{ site.github.url }}">
-      <img src="img/fabric8.png" alt="Fabric8 Planner User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
+    <a class="navbar-brand" href="{{ page.relative_path }}">
+      <img src="{{ page.relative_path }}assets/img/fabric8.png" alt="fabric8 User Experience" width="50" style="display: inline-block; vertical-align: bottom;">User Experience Design
     </a>
   </div>
   <div class="collapse navbar-collapse navbar-collapse-1">
+    <!--<ul class="nav navbar-nav navbar-primary persistent-secondary">-->
     <ul class="nav navbar-nav navbar-primary">
-      <li>
-        <a href="invision-links.html">Designs</a>
+      <li {% if page.navbar_active == "home" %} class="active"{% endif %}>
+        <a href="{{ page.relative_path }}">Home</a>
       </li>
-      <li>
-        <a href="ia.html">Information Architecture</a>
+      <li {% if page.navbar_active == "designs" %} class="active"{% endif %}>
+        <a href="{{ page.relative_path }}invision-links">Designs</a>
       </li>
-      <li>
-        <a href="assets.html">Design Assets</a>
+      <li {% if page.navbar_active == "ia" %} class="active"{% endif %}>
+        <a href="{{ page.relative_path }}ia">Information Architecture</a>
       </li>
-      <li>
-        <a href="CODE-GUIDELINES.html">Code Guidelines</a>
+      <li {% if page.navbar_active == "resources" %} class="active"{% endif %}>
+        <a href="{{ page.relative_path }}resources">Design Resources</a>
+        <!--<ul class="nav navbar-nav navbar-persistent secondary-nav">
+          <li>
+            <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
+          </li>
+          <li {% if page.navbar_active == "sketch" %} class="active"{% endif %}>
+            <a href="{{ page.relative_path }}src/docs/designs/assets/sketch/sketch.html" target="top">Sketch Components</a>
+          </li>
+          <li>
+            <a href="#">PSD Components</a>
+          </li>
+        </ul>-->
+      </li>
+      <li {% if page.navbar_active == "guidelines" %} class="active"{% endif %}>
+        <a href="{{ page.relative_path }}code-guidelines">Code Guidelines</a>
       </li>
       <li>
         <a href="#">

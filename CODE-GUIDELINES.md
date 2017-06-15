@@ -1,6 +1,8 @@
 ---
 layout: default
 title: HTML/CSS Code Guidelines
+navbar_active: guidelines
+relative_path: ./
 ---
 
 # OpenShift.io HTML/CSS Code Guidelines
@@ -229,7 +231,7 @@ Example:
 
 ## Prefixed properties
 
-OpenShift.io uses [Autoprefixer](https://github.com/postcss/autoprefixer) to deal with CSS vendor prefixes.
+OpenShift.io uses [Autoprefixer](https://github.com/postcss/autoprefixer), run through Webpack, to deal with CSS vendor prefixes.
 
 **Do not add vendor prefixes**
 
