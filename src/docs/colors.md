@@ -1,8 +1,11 @@
 ---
-layout: tab
+layout: default
 title: Color Palette
 relative_path: ../../
 ---
+
+# Color Palette - Based Off Of PatternFly
+----
 <style>
   .palette-table {
       border-spacing: 0px;

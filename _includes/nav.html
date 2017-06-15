@@ -35,9 +35,12 @@
             <li {% if page.navbar_active == "photoshop" %} class="active"{% endif %}>
               <a href="{{ page.relative_path }}src/docs/photoshop">Photoshop Components</a>
             </li>
-            <li>
-              <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
+            <li {% if page.navbar_active == "colors" %} class="active"{% endif %}>
+              <a href="{{ page.relative_path }}src/docs/colors">Color Palette</a>
             </li>
+            <!--<li>
+              <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
+            </li>-->
           </ul>
         </li>
         <li {% if page.navbar_active == "guidelines" %} class="active"{% endif %}>

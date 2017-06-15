@@ -7,7 +7,7 @@
     <meta name="author" content="Adam J. Jolicoeur">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="{{ page.relative_path }}assets/img/favicon.svg">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="{{ page.relative_path }}assets/css/styles.css">
     <!-- jQuery -->
