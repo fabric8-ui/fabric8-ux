@@ -1,8 +1,10 @@
 ---
-layout: tab
+layout: default
 title: Sketch Assets
 relative_path: ../../
 ---
+
+# Sketch Assets
 
 ### Available Sketch Files For Download
 **use these if you would like to contribute designs to fabric8**
