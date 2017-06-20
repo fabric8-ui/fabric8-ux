@@ -437,38 +437,38 @@ Always use classes - avoid using an ID. Use classes over generic element tag for
 
 ```
 
-<!-- ### BEM
+### BEM
 
-PatternFly follows the [BEM methodology](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/). It's a way to decouple CSS from HTML, and modularize class names so they can be extended.
+OpenShift.io follows the [BEM methodology](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/). It's a way to decouple CSS from HTML, and modularize class names so they can be extended.
 
-Class name structure follows the `{{pf-block}}__{{element}}--{{modifier}}` structure:
+Class name structure follows the `{{io-block}}__{{element}}--{{modifier}}` structure:
 
 ```less
-.pf-block__element--modifier {}
+.io-block__element--modifier {}
 ```
 
 Example:
 
 ```html
-<div class="pf-panel pf-panel--collapsible">
-  <div class="pf-panel__title">
+<div class="io-panel pf-panel--collapsible">
+  <div class="io-panel__title">
     <h1>Heading</h1>
   </div>
 
-  <div class="pf-panel__content">
+  <div class="io-panel__content">
     <p>Lorem ipsum dolor sit amet.</p>
   </div>
 </div>
 ```
 
 ```less
-.pf-panel {}                      // Block
-.pf-panel--collapsible {}         // Modifier of block
+.io-panel {}                      // Block
+.io-panel--collapsible {}         // Modifier of block
 
-.pf-panel__title {}               // Element
+.io-panel__title {}               // Element
 
-.pf-panel__content {}             // Element
-.pf-panel__content--unpadded {}   // Modifier of element
+.io-panel__content {}             // Element
+.io-panel__content--unpadded {}   // Modifier of element
 ```
 
 **Why it’s better**
@@ -476,7 +476,7 @@ Example:
 - All the selectors have same specificity.
 - Every element is defined via a block.
 - Every modifier is defined via a block or element.
-- Each class name imparts structural info without binding to exact HTML. -->
+- Each class name imparts structural info without binding to exact HTML.
 
 <!-- ============================================================ -->
 
