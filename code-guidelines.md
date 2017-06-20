@@ -411,7 +411,7 @@ To avoid conflicts, OpenShift.io prefixes all classes with io-”. This also hel
 }
 
 // Good
-.pf-selector {
+.io-selector {
   ...
 }
 ```
@@ -450,7 +450,7 @@ Class name structure follows the `{{io-block}}__{{element}}--{{modifier}}` struc
 Example:
 
 ```html
-<div class="io-panel pf-panel--collapsible">
+<div class="io-panel io-panel--collapsible">
   <div class="io-panel__title">
     <h1>Heading</h1>
   </div>
