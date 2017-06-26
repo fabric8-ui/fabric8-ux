@@ -20,8 +20,26 @@
             <span class="sr-only">(current)</span>
           </a>
         </li>
-        <li {% if page.navbar_active == "designs" %} class="active"{% endif %} >
-          <a href="{{ page.relative_path }}invision-links">Designs</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" arias-haspopup="true" aria-expanded="false">Designs <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li {% if page.navbar_active == "platform" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/platform">Platform</a>
+            </li>
+            <li {% if page.navbar_active == "planner" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/planner">Planner</a>
+            </li>
+            <li {% if page.navbar_active == "bayesian" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/bayesian">Bayesian</a>
+            </li>
+            <li {% if page.navbar_active == "hypothesis" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/hypothesis">Hypothesis</a>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li {% if page.navbar_active == "general-designs" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/general">Site-Wide Designs</a>
+            </li>
+          </ul>
         </li>
         <li {% if page.navbar_active == "ia" %} class="active dropdown"{% endif %}>
           <a href="{{ page.relative_path }}ia">Information Architecture</a>
@@ -38,9 +56,6 @@
             <li {% if page.navbar_active == "colors" %} class="active"{% endif %}>
               <a href="{{ page.relative_path }}src/docs/colors">Color Palette</a>
             </li>
-            <!--<li>
-              <a href="http://www.patternfly.org/styles/color-palette/" target="top">Color Palette</a>
-            </li>-->
           </ul>
         </li>
         <li {% if page.navbar_active == "guidelines" %} class="active"{% endif %}>
