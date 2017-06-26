@@ -46,7 +46,7 @@
       <div class="container-fluid">
         <div>
           <div class="pull-left">
-            <h1>InVision Links of Designs</h1>
+            <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
           </div>
           <div class="pull-right">
             <ul class="status-list">
@@ -57,7 +57,7 @@
           <div class="pull-right">
             <ul class="status-list">
               <li class="green">UXD verified with correct implementation</li>
-              <li class="red">Design are out of date and need to be updated</li>
+              <li class="red">Designs are out of date and need to be updated</li>
             </ul>
           </div>
           <div class="pull-right">

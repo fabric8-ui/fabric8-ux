@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Photoshop Assets
+navbar_active: photoshop
 relative_path: ../../
 ---
 
