@@ -35,10 +35,6 @@ This set of rules generate some constraints and conventions. If you run into ins
   - [Naming Selectors](#naming-selectors)
   - [Specificity](#specificity)
   - [Less](#less)
-<!--
-  - [Spacing](#spacing)
-  - [Shadows](#shadows)
-  - [Gradients](#gradients) -->
   - [Credits and references](#credits-and-references)
 
 <!-- ============================================================ -->
