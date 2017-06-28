@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fabric8io/fabric8-ux.svg?branch=master)](https://travis-ci.org/fabric8io/fabric8-ux)
+[![Build Status](https://travis-ci.org/fabric8-ui/fabric8-ux.svg?branch=master)](https://travis-ci.org/fabric8-ui/fabric8-ux)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![codebeat badge](https://codebeat.co/badges/0ca8937c-4201-4d2e-a0b3-9f7d77284838)](https://codebeat.co/projects/github-com-fabric8io-fabric8-ux-master)
 
