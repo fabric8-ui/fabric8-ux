@@ -4,14 +4,14 @@
 
 # User Experience Repo
 
-Design Issues, Documents and UX Mockups related to the [fabric8-ui](https://github.com/fabric8io/fabric8-ui) and [fabric8-planner](https://github.com/fabric8io/fabric8-planner) repositories.
+Design Issues, Documents and UX Mockups related to the [fabric8-platform](https://github.com/fabric8-ui/fabric8-platform) and [fabric8-planner](https://github.com/fabric8-ui/fabric8-planner) repositories.
 
 All information is tracked by the User Experience Design Team.
 
 ## Important Links and References
-- [Design Links](https://github.com/fabric8io/fabric8-ux/blob/master/invision-links.md)
-- [Information Architecture](https://github.com/fabric8io/fabric8-ux/blob/master/ia.md)
-- [HTML/CSS Code Guidelines](https://github.com/fabric8io/fabric8-ux/blob/master/code-guidelines.md)
+- [Design Links](https://github.com/fabric8-ui/fabric8-ux/blob/master/invision-links.md)
+- [Information Architecture](https://github.com/fabric8-ui/fabric8-ux/blob/master/ia.md)
+- [HTML/CSS Code Guidelines](https://github.com/fabric8-ui/fabric8-ux/blob/master/code-guidelines.md)
 
 ## Local Development
 Want to submit a PR to our site? Run the environment locally using the steps below:
