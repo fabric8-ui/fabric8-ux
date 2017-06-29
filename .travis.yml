@@ -13,7 +13,7 @@ addons:
 env:
     global:
         - secure: "GlQzFjz9m4v6aYbvA00unpmqp1apd2iGBg5iTWJ9ImvtpkLiHasp7L8UrtrCvii0Af2eyDWBwve2A/sohImzLec95MyJg4dc0b0cicTftNScmVG4Gsbl9e+0lwzbC2n0Ne15x7jrrgLI2O50lWvgZ0MLSbYaIPQ5yfZnRcTCZTfghVxgKmkWZwPKEnDiyiRkHTKBkfAG+NBM/IiI6TlIUCW5TBqUY8qyZ10KWZgqL2i+j315qUQ46+rZYYknM0c4QUqmldhYJDdb3ch8j7/duytKGLxMZMCvXZCZ+8KDPN9ax0miuwB3S/3Qwz5JtH2sijtXX3FalGM+ALJ3nCk9yJZcjs+bVHH8rvhXCKh8l4+5XPC7fHsK5UB4a6yVPxr3cIpPFo5HrYCsJmcK6LyOqPeGKZVHZdoAJ41ztRJ8S7IXg+fJgGBUXCCAJ8ddtlPg9mngCVPDio66rVnWSnpIgpb0pxUEUzExtlHg6FRZCcvHEWGpBJyZetSlmoF8j/M0K38VqKFfridln2sJhypdIYO1j1wUwrrGCxOBBEz9o4ebFyuyCIbG8/IE4FparmwhxVLCpH2KYO24jiILuK6ExuJ/KF1GRtgXoMKXqHG9hJNukX42QUmUa89XEhcCViUNJVxL0s/OzI3FZHw/1pTPG4eHtlhakv8hwlK2YkyDKVU="
-        - TRIGGER_REPO_SLUG: "fabric8io/fabric8-uxd"
+        - TRIGGER_REPO_SLUG: "fabric8-ui/fabric8-ux"
         - TRIGGER_REPO_BRANCH: "master"
 
 # Assume bundler is being used, therefore
