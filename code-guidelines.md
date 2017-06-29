@@ -6,10 +6,9 @@ relative_path: ./
 ---
 
 # OpenShift.io HTML/CSS Code Guidelines
+*covering HTML, CSS (Less) and structure*
 
 ----
-
-## __This is a draft and is still in progress__
 
 Please enforce these guidelines at all times. Small or large, call out what is incorrect.
 
@@ -18,7 +17,7 @@ Please enforce these guidelines at all times. Small or large, call out what is i
 This set of rules generate some constraints and conventions. If you run into instances where a convention is not obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.
 
 
-## Table of content (WIP)
+## Table of Contents
 
 - HTML
   - [Syntax](#syntax)
@@ -38,6 +37,8 @@ This set of rules generate some constraints and conventions. If you run into ins
   - [Credits and references](#credits-and-references)
 
 <!-- ============================================================ -->
+
+----
 
 # HTML
 
@@ -114,6 +115,8 @@ Whenever possible, avoid superfluous parent elements when writing HTML. Take the
 Preferably, we want to keep our lines of HTML to 120 characters or less. This is enforced in our Less Hint configuration.
 
 <!-- ============================================================ -->
+
+----
 
 # CSS
 

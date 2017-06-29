@@ -33,7 +33,10 @@ body { font-size: $fa-font-size-base; }
   }
 }
 .status-list {
-  .legend { color: $color-pf-black; }
+  .legend {
+    color: $color-pf-black;
+    text-align: right;
+  }
   padding: 0 5px;
   list-style: none;
   li {

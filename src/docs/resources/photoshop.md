@@ -2,10 +2,11 @@
 layout: default
 title: Photoshop Assets
 navbar_active: photoshop
-relative_path: ../../
+relative_path: ../../../
 ---
 
 # Photoshop Assets
+*design pattern assets for Photoshop - available for download*
 
 ----
 

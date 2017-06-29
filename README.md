@@ -1,17 +1,23 @@
 [![Build Status](https://travis-ci.org/fabric8-ui/fabric8-ux.svg?branch=master)](https://travis-ci.org/fabric8-ui/fabric8-ux)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![codebeat badge](https://codebeat.co/badges/0ca8937c-4201-4d2e-a0b3-9f7d77284838)](https://codebeat.co/projects/github-com-fabric8io-fabric8-ux-master)
 
 # User Experience Repo
 
-Design Issues, Documents and UX Mockups related to the [fabric8-platform](https://github.com/fabric8-ui/fabric8-platform) and [fabric8-planner](https://github.com/fabric8-ui/fabric8-planner) repositories.
+Design Stories, Documents and UX Mockups related to the [fabric8-ui](https://github.com/fabric8-ui/fabric8-ui) and [fabric8-planner](https://github.com/fabric8-ui/fabric8-planner) repositories.
 
 All information is tracked by the User Experience Design Team.
 
 ## Important Links and References
-- [Design Links](https://github.com/fabric8-ui/fabric8-ux/blob/master/invision-links.md)
-- [Information Architecture](https://github.com/fabric8-ui/fabric8-ux/blob/master/ia.md)
+- Design Links
+    - [Platform](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/platform.md)
+    - [Planner](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/planner.md)
+    - [Bayesian](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/bayesian.md)
+    - [Hypothesis Engine](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/hypothesis.md)
+    - [fabric8 Patterns](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/patterns.md)
+- [Information Architecture](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/resources/ia.md)
 - [HTML/CSS Code Guidelines](https://github.com/fabric8-ui/fabric8-ux/blob/master/code-guidelines.md)
+
+----
 
 ## Local Development
 Want to submit a PR to our site? Run the environment locally using the steps below:
