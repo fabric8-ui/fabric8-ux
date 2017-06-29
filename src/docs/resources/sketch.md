@@ -2,10 +2,11 @@
 layout: default
 title: Sketch Assets
 navbar_active: sketch
-relative_path: ../../
+relative_path: ../../../
 ---
 
 # Sketch Assets
+*design pattern assets for Sketch - available for download*
 
 ----
 

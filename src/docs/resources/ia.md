@@ -2,10 +2,11 @@
 layout: default
 title: IA Sitemap
 navbar_active: ia
-relative_path: ./
+relative_path: ../../../
 ---
 
 # OpenShift.io IA
+*information architecture for the OpenShift.io environment*
 
 ----
 

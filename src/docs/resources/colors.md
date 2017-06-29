@@ -2,11 +2,14 @@
 layout: default
 title: Color Palette
 navbar_active: colors
-relative_path: ../../
+relative_path: ../../../
 ---
 
 # Color Palette - Based Off Of PatternFly
+*OpenShift.io color palette*
+
 ----
+
 <style>
   .palette-table {
       border-spacing: 0px;

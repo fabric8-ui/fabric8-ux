@@ -1,42 +1,32 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="fabric8 UXD">
-    <meta name="author" content="Adam J. Jolicoeur">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="{{ page.relative_path }}assets/img/favicon.svg">
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="{{ page.relative_path }}assets/css/styles.css">
-    <!-- jQuery -->
-    <script src="{{ page.relative_path }}assets/js/vendor/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="{{ page.relative_path }}assets/js/vendor/bootstrap.min.js"></script>
-    <!-- PatternFly JS -->
-    <script src="{{ page.relative_path }}assets/js/vendor/patternfly.min.js"></script>
-    <!-- Site JS -->
-    <script src="{{ page.relative_path }}assets/js/designSearch.js"></script>
-    <script src="{{ page.relative_path }}assets/js/designSort.js"></script>
-  </head>
-  <body>
+  {% include header.html %}
     {% include nav.html %}
+    <style>
+      .hide { display: none; }
+    </style>
     <!-- Toolbar -->
     <div class="row toolbar-pf table-view-pf-toolbar" id="toolbar1">
       <div class="col-sm-12">
         <form class="toolbar-pf-actions">
           <div class="form-group toolbar-pf-filter">
             <label class="sr-only" for="filter">
-              Rendering Engine
+              Filter Designs
             </label>
             <div class="input-group">
               <div class="input-group-btn">
                 <button type="button" class="btn btn-default dropdown-toggle" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Filter by Design
+                  Filter Designs <span class="caret"></span>
                 </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a data-target="#" id="design">Design Title</a>
+                  </li>
+                  <li>
+                    <a data-target="#" id="designer">Designer</a>
+                  </li>
+                </ul>
               </div>
-              <input type="text" class="form-control" placeholder="Filter By Design..." autocomplete="off" id="myInput" onkeyup="myFunction()">
+              <input type="text" class="form-control" placeholder="by Design Title..." autocomplete="off" id="designFilter" onkeyup="titleFunction()">
+              <input type="text" class="form-control hide" placeholder="by Designer..." autocomplete="off" id="designerFilter" onkeyup="designerFunction()">
             </div>
           </div>
         </form>
@@ -44,38 +34,13 @@
     </div>
     <section>
       <div class="container-fluid">
-        <div>
-          <div class="pull-left">
+        <div class="col-sm-12">
+          <div class="col-sm-5">
             <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
-          </div>
-          <div class="pull-right">
-            <ul class="status-list">
-              <li class="purple">Planned - current goal by UXD</li>
-              <li class="grey">Unplanned - future goal by UXD</li>
-            </ul>
-          </div>
-          <div class="pull-right">
-            <ul class="status-list">
-              <li class="green">UXD verified with correct implementation</li>
-              <li class="red">Designs are out of date and need to be updated</li>
-            </ul>
-          </div>
-          <div class="pull-right">
-            <ul class="status-list">
-              <li class="orange">Currently being worked on by UXD</li>
-              <li class="blue">UXD complete - ready for implementation</li>
-            </ul>
-          </div>
-          <div class="pull-right">
-            <ul class="status-list">
-              <li class="legend">
-                <strong>LEGEND</strong>
-              </li>
-              <li></li>
-            </ul>
           </div>
         </div>
       </div>
+      {% include design-legend.html %}
       <div class="container-fluid">
 
         {{ content }}
@@ -83,7 +48,7 @@
       </div><!-- /.container -->
     </section>
     <script>
-    $("table").addClass("table table-striped table-bordered table-hover").attr("id", "myTable2");
+    $("table").addClass("table table-striped table-bordered table-hover").attr("id", "designTable");
     // $("table").attr("id", "myTable2");
     $("table>tbody>tr>td>a").attr("target", "top");
     $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
@@ -93,4 +58,4 @@
     $("table>tbody>tr>td:contains('TBD')").addClass("grey");
     $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
     </script>
-  </html>
+  {% include footer.html %}
