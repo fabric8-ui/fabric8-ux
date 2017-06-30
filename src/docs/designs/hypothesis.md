@@ -5,7 +5,7 @@ navbar_active: hypothesis
 relative_path: ../../../
 ---
 
-| <a href="javascript:SortTable(0);" class="sort">Design Title | <a href="javascript:SortTable(1);" class="sort">Type</a> | <a href="javascript:SortTable(2);" class="sort">Designer</a> | <a href="javascript:SortTable(3);" class="sort">Status<a/> | <a href="javascript:SortTable(4, 'D', 'mdy');" class="sort">Last Updated</a> | Design Links | Work Item Link
+| <a href="javascript:SortTable(0);" id="designTableTitle" class="sort">Design | <a href="javascript:SortTable(1);" id="designTableType" class="sort">Type</a> | <a href="javascript:SortTable(2);" id="designTableDesigner" class="sort">Designer</a> | <a href="javascript:SortTable(3);" id="designTableStatus" class="sort">Status<a/> | <a href="javascript:SortTable(4, 'D', 'mdy');" id="designTableUpdate" class="sort">Last Updated</a> | <span id="designTableWILinks">Work Item Link</span>
 | :---                                              |:---                   |:---           |:---               |:---               |:---                                                                                                      |:---
 |                |              |         |      |         |      |
 

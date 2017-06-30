@@ -11,13 +11,11 @@
           <div class="col-sm-5">
             <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
           </div>
+          {% include design-legend.html %}
         </div>
       </div>
-      {% include design-legend.html %}
       <div class="container-fluid">
-
         {{ content }}
-
       </div><!-- /.container -->
     </section>
     <script>
