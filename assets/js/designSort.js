@@ -1,6 +1,6 @@
 // One placed to customize - The id value of the table tag.
 
-var TableIDvalue = "myTable2";
+var TableIDvalue = "designTable";
 
 //
 //////////////////////////////////////
