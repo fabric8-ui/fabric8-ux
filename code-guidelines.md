@@ -112,7 +112,7 @@ Whenever possible, avoid superfluous parent elements when writing HTML. Take the
 <img class="avatar" src="...">
 ```
 
-Preferably, we want to keep our lines of HTML to 120 characters or less. This is enforced in our Less Hint configuration.
+Preferably, we want to keep our lines of HTML to 128 characters or less. This is enforced in our code compiler configurations.
 
 <!-- ============================================================ -->
 
