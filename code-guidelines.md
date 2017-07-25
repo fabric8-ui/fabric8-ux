@@ -729,5 +729,5 @@ Treat @extend:{} with respect. Use @extend:{} only for maintaining relationships
 
 This guide is inspired by people we follow and respect:
 
-- **[PatternFly](https://patternfly.org):** [PatternFly 5 Code Guidelines](https://github.com/patternfly/patternfly-css/blob/master/CODE-GUIDELINES.md)
+- **[PatternFly](https://patternfly.org):** [PatternFly CSS Code Guidelines](https://github.com/patternfly/patternfly-css/blob/master/CODE-GUIDELINES.md)
 - **[Mark Otto](http://markdotto.com/):** [Code Guidelines](http://codeguide.co/)
