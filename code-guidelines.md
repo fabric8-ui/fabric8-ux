@@ -415,7 +415,7 @@ Create names with useful or specific meaning via a mechanism that will not inhib
 
 ### Namespace
 
-To avoid conflicts, OpenShift.io prefixes all classes with io-”. This also helps differentiate OpenShift.io from PatternFly and Bootstrap class names.
+To avoid conflicts, OpenShift.io prefixes all classes with `f8-`. This also helps differentiate OpenShift.io from PatternFly and Bootstrap class names.
 
 ```less
 // Bad
@@ -424,7 +424,7 @@ To avoid conflicts, OpenShift.io prefixes all classes with io-”. This also hel
 }
 
 // Good
-.io-selector {
+.f8-selector {
   ...
 }
 ```
@@ -435,7 +435,7 @@ Always use classes - avoid using an ID. Use classes over generic element tag for
 
 ```less
 // Bad
-.io-card {
+.f8-card {
   color: #000;
 
   h2{
@@ -444,9 +444,9 @@ Always use classes - avoid using an ID. Use classes over generic element tag for
 }
 
 // Good
-.io-card { color: #000; }
+.f8-card { color: #000; }
 
-.io-card--title{ font-size: 2em; }
+.f8-card--title{ font-size: 2em; }
 
 ```
 
@@ -454,34 +454,34 @@ Always use classes - avoid using an ID. Use classes over generic element tag for
 
 OpenShift.io follows the [BEM methodology](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/). It's a way to decouple CSS from HTML, and modularize class names so they can be extended.
 
-Class name structure follows the `{{io-block}}__{{element}}--{{modifier}}` structure:
+Class name structure follows the `{{f8-block}}__{{element}}--{{modifier}}` structure:
 
 ```less
-.io-block__element--modifier {}
+.f8-block__element--modifier {}
 ```
 
 Example:
 
 ```html
-<div class="io-panel io-panel--collapsible">
-  <div class="io-panel__title">
+<div class="f8-panel io-panel--collapsible">
+  <div class="f8-panel__title">
     <h1>Heading</h1>
   </div>
 
-  <div class="io-panel__content">
+  <div class="f8-panel__content">
     <p>Lorem ipsum dolor sit amet.</p>
   </div>
 </div>
 ```
 
 ```less
-.io-panel {}                      // Block
-.io-panel--collapsible {}         // Modifier of block
+.f8-panel {}                      // Block
+.f8-panel--collapsible {}         // Modifier of block
 
-.io-panel__title {}               // Element
+.f8-panel__title {}               // Element
 
-.io-panel__content {}             // Element
-.io-panel__content--unpadded {}   // Modifier of element
+.f8-panel__content {}             // Element
+.f8-panel__content--unpadded {}   // Modifier of element
 ```
 
 **Why it’s better**
@@ -501,12 +501,12 @@ Always keep selectors as shallow as possible.
 // Bad
 .header .search-box input[type=search] + .button {}
 
-.io-search-box {
+.f8-search-box {
   .btn {}
 }
 
 // Good
-.io-search__button {}
+.f8-search__button {}
 ```
 
 ### Nesting
@@ -529,7 +529,7 @@ Component-specific media queries should be nested inside the component block. Us
 **Do progressive enhancement, not gracefully degrade.**
 
 ```less
-.io-nav {
+.f8-nav {
   ...
 
   // Styles for small view ports and up
@@ -542,17 +542,17 @@ Component-specific media queries should be nested inside the component block. Us
 Make use of the [precompiler's parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.
 
 ```less
-.io-primary-nav {
+.f8-primary-nav {
   ...
 
   // Nav appearing in header: Right-align navigation when it appears in the header
-  .io-header & {
+  .f8-header & {
     margin-left: auto;
   }
 }
 ```
 
-All styles for `.io-primary-nav` should be found in one place, rather than scattered throughout multiple partial files.
+All styles for `.f8-primary-nav` should be found in one place, rather than scattered throughout multiple partial files.
 
 #### 4. States, pseudo-classes and pseudo-elements
 
@@ -574,14 +574,14 @@ Keep OpenShift.io code DRY. Reuse as much as you can from Bootstrap and PatternF
 
 **To overwrite Bootstrap:**
 
-- Create a new `io-` block element to live beside the Bootstrap or PatternFly block instead of a modifier.
+- Create a new `f8-` block element to live beside the Bootstrap or PatternFly block instead of a modifier.
 - Be precise and accurate, introduce as little modifications as possible to achieve the design.
 - Base your styles on the original bootstrap less file.
 - Bootstrap uses a modified version of BEM: `{{block}}-{{element}}-{{modifier}}`.
 
 ```less
 // OpenShift.io card block
-.io-card {
+.f8-card {
   border: none;
 
   // Overwrite Bootstrap card header element
@@ -598,7 +598,7 @@ Keep OpenShift.io code DRY. Reuse as much as you can from Bootstrap and PatternF
 }
 
 // OpenShift.io card modifier
-.io-card--accented {
+.f8-card--accented {
   border-top: 2px solid;
   border-color: @color-pf-blue-300;
 }    
