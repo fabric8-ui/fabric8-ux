@@ -36,6 +36,7 @@ relative_path: ../../../
 | [Status Bar](https://redhat.invisionapp.com/share/VZCK1BBKT#/243396394_V3_Status_Bar) | Wireframes        | Laura         | Ready for Dev     | 07/12/2017        | [UX GitHub Issue 491](https://github.com/fabric8-ui/fabric8-ux/issues/491)
 | [User Profile](https://redhat.invisionapp.com/share/KQB6LEHM8)                    | Wireframe             | Jessica       | Ready for Dev     | 04/05/2017        | [UX GitHub Issue 301](https://github.com/fabric8-ui/fabric8-ux/issues/301)
 | User Profile                                                                      | Visual                | Unassigned    | Not Yet Started   |                   | [UX GitHub Issue 321](https://github.com/fabric8-ui/fabric8-ux/issues/321)
+| [User Settings](https://redhat.invisionapp.com/share/C5CWDPFP2)                   | Wireframe             | Adam          | In Progress       | 08/04/2017        | [UX Github Issue 575](https://github.com/fabric8-ui/fabric8-ux/issues/575)
 | [Workspaces](https://redhat.invisionapp.com/share/GUABZY4PQ)                      | Wireframe             | Adam          | Ready for Dev     | 02/06/2017        |
 | Workspaces                                                                        | Visual                | Unassigned    | Not Yet Started   |                   |
 
