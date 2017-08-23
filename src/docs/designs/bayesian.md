@@ -1,5 +1,5 @@
 ---
-layout: links-current
+layout: designs
 title: Bayesian Designs
 navbar_active: bayesian
 relative_path: ../../../

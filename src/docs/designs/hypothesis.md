@@ -1,5 +1,5 @@
 ---
-layout: links-current
+layout: designs
 title: Hypothesis Engine Designs
 navbar_active: hypothesis
 relative_path: ../../../

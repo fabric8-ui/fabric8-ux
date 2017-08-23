@@ -1,5 +1,5 @@
 ---
-layout: links-current
+layout: designs
 title: Platform Designs
 navbar_active: platform
 relative_path: ../../../
@@ -8,7 +8,7 @@ relative_path: ../../../
 | <a href="javascript:SortTable(0);" id="designTableTitle" class="sort">Design | <a href="javascript:SortTable(1);" id="designTableType" class="sort">Type</a> | <a href="javascript:SortTable(2);" id="designTableDesigner" class="sort">Designer</a> | <a href="javascript:SortTable(3);" id="designTableStatus" class="sort">Status<a/> | <a href="javascript:SortTable(4, 'D', 'mdy');" id="designTableUpdate" class="sort">Last Updated</a> | <span id="designTableWILinks">Work Item Link</span>
 | :---                                              |:---                   |:---           |:---               |:---               |:---                                                                                                      |:---
 | [About Modal](https://redhat.invisionapp.com/share/FUBEES139)                     | Visual                | Jessica        | Ready for Dev     | 04/18/2017
-| [About Modal- Updated](https://redhat.invisionapp.com/share/7FCK1LF94#/243401049_V3_About_Modal_Update) |Wireframe    |Laura  |Ready for Dev   | 07/12/2017        | [UX GitHub Issue 491](https://github.com/fabric8-ui/fabric8-ux/issues/491) 
+| [About Modal- Updated](https://redhat.invisionapp.com/share/7FCK1LF94#/243401049_V3_About_Modal_Update) |Wireframe    |Laura  |Ready for Dev   | 07/12/2017        | [UX GitHub Issue 491](https://github.com/fabric8-ui/fabric8-ux/issues/491)
 | [Areas](https://redhat.invisionapp.com/share/67A35QD4B)                           | Workflow              | Adam           | Ready for Dev     | 01/18/2017
 | [Areas - Assign Area](https://redhat.invisionapp.com/share/XCA839ET9)             | Wireframe             | Adam           | Ready for Dev     | 02/24/2017        | [UX GitHub Issue 129](https://github.com/fabric8-ui/fabric8-ux/issues/129)
 | [Codebases](https://redhat.invisionapp.com/share/FXACSF1AP)                       | Wireframe             | Adam           | Ready for Dev     | 02/07/2017        | [UX GitHub Issue 150](https://github.com/fabric8-ui/fabric8-ux/issues/150)

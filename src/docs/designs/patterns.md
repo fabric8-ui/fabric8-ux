@@ -1,5 +1,5 @@
 ---
-layout: links-current
+layout: designs
 title: fabric8 Patterns
 navbar_active: patterns
 relative_path: ../../../
