@@ -9,11 +9,12 @@ All information is tracked by the User Experience Design Team.
 
 ## Important Links and References
 - Design Links
-    - [Platform](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/platform.md)
-    - [Planner](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/planner.md)
-    - [Bayesian](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/bayesian.md)
-    - [Hypothesis Engine](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/hypothesis.md)
-    - [fabric8 Patterns](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/designs/patterns.md)
+    - [Platform](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/platform)
+    - [Planner](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/planner)
+    - [Bayesian](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/bayesian)
+    - [Hypothesis Engine](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/hypothesis)
+    - [fabric8 Patterns](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/patterns)
+    - [Archived Designs](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/archives)
 - [Information Architecture](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/resources/ia.md)
 - [HTML/CSS Code Guidelines](https://github.com/fabric8-ui/fabric8-ux/blob/master/code-guidelines.md)
 
@@ -31,8 +32,8 @@ Want to submit a PR to our site? Run the environment locally using the steps bel
 2. run `gem install bundler`
 3. run `npm install`
 4. run `gulp`
-    - this will copy the files from your 
-    npm_modules directory to their respective 
+    - this will copy the files from your
+    npm_modules directory to their respective
     locations for the jekyll build process
 5. run `jekyll build`
 6. run `jekyll serve`
