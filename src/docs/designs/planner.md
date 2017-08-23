@@ -1,5 +1,5 @@
 ---
-layout: links-current
+layout: designs
 title: Planner Designs
 navbar_active: planner
 relative_path: ../../../
@@ -28,7 +28,7 @@ relative_path: ../../../
 | [Markdown Indicator](https://redhat.invisionapp.com/share/GRAHX5HSQ)                                | Wireframes            | Adam          | Ready for Dev     | 02/15/2017  | [UX GitHub Issue 163](https://github.com/fabric8-ui/fabric8-ux/issues/163)
 | [Relationship Links](https://redhat.invisionapp.com/share/M28SSTLRJ)                                | Wireframe             | Monica        | Ready for Dev     | 01/15/2016  | [UX GitHub Issue 83](https://github.com/fabric8-ui/fabric8-ux/issues/83)
 | [Relationship Links](https://redhat.invisionapp.com/share/2KABL3Y4Z)                                | Visual                | Sunil         | Ready for Dev     | 03/02/2017  | [UX GitHub Issue 90](https://github.com/fabric8-ui/fabric8-ux/issues/90)
-| [Reordering Items (drag and drop) - Desktop](https://redhat.invisionapp.com/share/YVA4PGYA3)        | Wireframe             | Melody, Adam, Catherine  | Ready for Dev     |  | 
+| [Reordering Items (drag and drop) - Desktop](https://redhat.invisionapp.com/share/YVA4PGYA3)        | Wireframe             | Melody, Adam, Catherine  | Ready for Dev     |  |
 | [Reordering Items (drag and drop)](https://redhat.invisionapp.com/share/YBAUESBKG)                  | Visual                | Sunil         | Ready for Dev     |             | [UX GitHub Issue 221](https://github.com/fabric8-ui/fabric8-ux/issues/221)
 | [Tags - Desktop](https://redhat.invisionapp.com/share/6E8ZFBF2Q)                                    | Wireframe             | Sj            | Ready for Dev     | 10/27/2016  |
 | Tags - Desktop                                                                                      | Visual                | Unassigned    | Not Yet Started   |             | [UX GitHub Issue 244](https://github.com/fabric8-ui/fabric8-ux/issues/244)

@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li {% if page.navbar_active == "home" %} class="active"{% endif %}>
-          <a href="{{ page.relative_path }}">Home 
+          <a href="{{ page.relative_path }}">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -38,6 +38,10 @@
             <li role="separator" class="divider"></li>
             <li {% if page.navbar_active == "patterns" %} class="active"{% endif %} >
               <a href="{{ page.relative_path }}src/docs/designs/patterns">fabric8 Patterns</a>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li {% if page.navbar_active == "archives" %} class="active"{% endif %} >
+              <a href="{{ page.relative_path }}src/docs/designs/archives">Archives</a>
             </li>
           </ul>
         </li>
