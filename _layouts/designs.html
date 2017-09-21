@@ -22,10 +22,11 @@
     $("table").addClass("table table-striped table-bordered table-hover").attr("id", "designTable");
     // $("table").attr("id", "myTable2");
     $("table>tbody>tr>td>a").attr("target", "top");
-    $("table>tbody>tr>td:contains('Out of Date')").addClass("red");
+    $("table>tbody>tr>td:contains('Needs Updates')").addClass("orange");
+    $("table>tbody>tr>td:contains('Needs Review')").addClass("red");
     $("table>tbody>tr>td:contains('Done')").addClass("green");
     $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
-    $("table>tbody>tr>td:contains('In Progress')").addClass("orange");
+    $("table>tbody>tr>td:contains('In Progress')").addClass("light-blue");
     $("table>tbody>tr>td:contains('TBD')").addClass("grey");
     $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
     </script>
