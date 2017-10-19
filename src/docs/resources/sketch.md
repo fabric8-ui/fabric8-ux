@@ -15,6 +15,6 @@ relative_path: ../../../
 
 <ul>
   <li>
-    <a href="{{ page.relative_path }}src/docs/designs/assets/Fabric8_Symbols.sketch %}">Fabric8 Symbols</a>
+    <a href="{{ page.relative_path }}src/docs/designs/assets/Fabric8_Symbols.sketch">fabric8 symbols <i class="fa fa-download" aria-hidden="true"></i></a>
   </li>
 </ul>
