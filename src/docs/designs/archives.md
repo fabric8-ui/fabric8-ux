@@ -14,5 +14,7 @@ relative_path: ../../../
 | :---                                              |:---                   |:---           |:---               |:---               |:---                                                                                                      |:---
 | [Codebases](https://redhat.invisionapp.com/share/FXACSF1AP)                       | Wireframe             | Adam           | Platform     | 02/07/2017        | [UX GitHub Issue 150](https://github.com/fabric8-ui/fabric8-ux/issues/150)
 | [Settings](https://redhat.invisionapp.com/share/7XAIMZBBK)                        | Wireframe             | Adam           | Ready for Dev    | 02/23/2017        | [UX GitHub Issue 160](https://github.com/fabric8-ui/fabric8-ux/issues/160)
+| [Homepage - not logged in - Desktop](https://redhat.invisionapp.com/share/3UAMWOEF4)  | Wireframe     | Adam           | Platform     | 03/03/2017        | [UX GitHub Issue 188](https://github.com/fabric8-ui/fabric8-ux/issues/188)
+| [Homepage - not logged in](https://redhat.invisionapp.com/share/8FB4YEY2W)            | Visual        | Jessica        | Platform     | 04/15/2017        | [UX GitHub Issue 258](https://github.com/fabric8-ui/fabric8-ux/issues/258)
 
 ###### All markdown written using this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
