@@ -23,7 +23,7 @@ relative_path: ./
               fabric8-ux
             </h2>
             <p class="card-pf-info text-center">
-              This repo is for user experience issues related to the planner and platform UIs.
+              This repo is for user experience issues related to <a href="https://github.com/fabric8-ui/fabric8-ui" target="_blank">fabric8-ui</a> and <a href="https://github.com/fabric8-ui/fabric8-planner" target="_blank">fabric8-planner</a>.
             </p>
             <p class="card-pf-info text-center">
               All information is tracked by the User Experience Design Team.
