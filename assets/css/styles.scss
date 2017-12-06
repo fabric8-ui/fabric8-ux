@@ -11,9 +11,9 @@
 // $fa-font-path:        "../fonts/font-awesome";
 
 // Imports
-@import "../_sass/vendor/patternfly/_patternfly";
+@import "../_sass/patternfly/patternfly.scss";
 // @import "_bootstrap";
-@import "../_sass/vendor/patternfly/font-awesome";
+@import "../_sass/patternfly/font-awesome.scss";
 
 // Site styles
 @import "base";
