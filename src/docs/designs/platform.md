@@ -45,5 +45,5 @@ relative_path: ../../../
 | [Unauthorized User Page](https://redhat.invisionapp.com/share/S6CPDL95E)                                       | Visual                | Brian                  | Ready for Dev           | 07/31/2017        | [UX GitHub Issue 462](https://github.com/fabric8-ui/fabric8-ux/issues/462)
 | [User Settings](https://redhat.invisionapp.com/share/GHCW0C3P4)                                                | Wireframe + Visuals   | Adam, Brian, Michael   | Ready for Dev           | 08/20/2017        | UX Github Issues:[662](https://github.com/fabric8-ui/fabric8-ux/issues/662), [621](https://github.com/fabric8-ui/fabric8-ux/issues/621)
 | [Wizard - Available Resources](https://redhat.invisionapp.com/share/PMDCE3G94)                                 | Visuals               | Michael                | Ready for Dev           | 09/18/2017        | [UX GitHub Issue 607](https://github.com/fabric8-ui/fabric8-ux/issues/607)
-
+| [Search Results](https://redhat.invisionapp.com/share/WQFA7QEUS)  | Wireframe |Laura  |Needs Review |01/11/2018 |[UX GitHub Issue 761](https://github.com/fabric8-ui/fabric8-ux/issues/761)                                      
 ###### All markdown written using this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
