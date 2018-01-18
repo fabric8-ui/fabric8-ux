@@ -37,11 +37,11 @@ relative_path: ../../../
 | [Work Item - Hierarchy](https://redhat.invisionapp.com/share/ZPB1VOOXS)                             | Visual                | Sunil         | Ready for Dev     |             | [UX GitHub Issue 134](https://github.com/fabric8-ui/fabric8-ux/issues/134)
 | [Work Item - Detail Panel Holistic Review](https://redhat.invisionapp.com/share/4WB800RHD)          | Visual                | Brian         | In Progress       |             | [UX GitHub Issue 286](https://github.com/fabric8-ui/fabric8-ux/issues/286)
 | [Work Item - Modular Behavior](https://redhat.invisionapp.com/share/8QACKL3AY)                      | Wireframe             | Monica        | Ready for Dev     | 02/06/2017  | [UX GitHub Issue 314](https://github.com/fabric8-ui/fabric8-ux/issues/314)
-| [Analytics-Stack Report UI Revamp](https://redhat.invisionapp.com/share/JTF8802X6)             | Visual Design               | Ashish    | Ready for Dev       | 10/01/2018  |
-| [Analytics-Dependency Editor](https://redhat.invisionapp.com/d/main#/projects/prototypes/13058750)             | Wireframe               | Parvathy, Ashish    | In Progress       | 16/01/2018  |
-| [Side Panel](https://redhat.invisionapp.com/share/NVEWGDU4W#/269980275_Iterations_00)             | Visual Design               | Sunil    | Ready for Dev       | 15/01/2018  |
-| [Scenarios](https://redhat.invisionapp.com/share/NVEWGDU4W#/268693254_Scenarios_00)             | Visual Design               | Sunil    | Ready for Dev       | 15/01/2018  |
-| [Experiences](https://redhat.invisionapp.com/share/NVEWGDU4W#/268915396_Experience_00)             | Visual Design               | Sunil    | Ready for Dev       | 15/01/2018  |
-| [Requirements](https://redhat.invisionapp.com/share/NVEWGDU4W#/268923362_Requirements_00)             | Visual Design               | Sunil    | Ready for Dev       | 15/01/2018  |
+| [Analytics-Stack Report UI Revamp](https://redhat.invisionapp.com/share/JTF8802X6)             | Visual Design               | Ashish    | Ready for Dev       | 01/10/2018  |
+| [Analytics-Dependency Editor](https://redhat.invisionapp.com/d/main#/projects/prototypes/13058750)             | Wireframe               | Parvathy, Ashish    | In Progress       | 01/16/2018  |
+| [Side Panel](https://redhat.invisionapp.com/share/NVEWGDU4W#/269980275_Iterations_00)             | Visual Design               | Sunil    | Ready for Dev       | 01/15/2018  |
+| [Scenarios](https://redhat.invisionapp.com/share/NVEWGDU4W#/268693254_Scenarios_00)             | Visual Design               | Sunil    | Ready for Dev       | 01/15/2018  |
+| [Experiences](https://redhat.invisionapp.com/share/NVEWGDU4W#/268915396_Experience_00)             | Visual Design               | Sunil    | Ready for Dev       | 01/15/2018  |
+| [Requirements](https://redhat.invisionapp.com/share/NVEWGDU4W#/268923362_Requirements_00)             | Visual Design               | Sunil    | Ready for Dev       | 01/15/2018  |
 
 ###### All markdown written using this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
