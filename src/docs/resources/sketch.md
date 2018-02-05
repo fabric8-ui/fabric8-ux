@@ -2,7 +2,7 @@
 layout: default
 title: Sketch Assets
 navbar_active: sketch
-relative_path: ../../../
+relative_path: ../
 permalink: sketch.html
 ---
 
