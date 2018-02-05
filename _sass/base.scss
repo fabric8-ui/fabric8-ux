@@ -1,49 +1,9 @@
 @import "patternfly/font-awesome.scss";
 @import "patternfly/patternfly/variables.scss";
 
-body { font-size: $fa-font-size-base; }
+body {
+  font-size: $fa-font-size-base;
+  padding-top: 70px;
+}
 .full-width { width: 100%; }
 .full-height { height: 100%; }
-.sort {
-  &::after {
-    margin-left: 5px;
-    font-family: FontAwesome;
-    content: '\f0dc';
-  }
-  &:hover,
-  &:active,
-  &:focus { text-decoration: none; }
-}
-.green { background-color: $color-pf-green-200 }
-.blue { background-color: $color-pf-blue-200; }
-.light-blue { background-color: $color-pf-blue-100; }
-.light-blue-text { color: $color-pf-black !important;}
-.orange { background-color: $color-pf-orange-200; }
-.purple { background-color: $color-pf-purple-200; color: $color-pf-white;}
-.red { background-color: $color-pf-red-100; color: $color-pf-white;}
-.grey {
-  background-color: $color-pf-black-300;
-  color: $color-pf-black-500 !important;
-}
-.filter-control {
-  list-style: none;
-  padding: 0 5px;
-  li {
-    color: $color-pf-black;
-    margin: 2px 0;
-    padding: 5px;
-  }
-}
-.status-list {
-  .legend {
-    color: $color-pf-black;
-    text-align: right;
-  }
-  padding: 0 5px;
-  list-style: none;
-  li {
-    margin: 2px 0;
-    padding: 5px;
-    color: $color-pf-white;
-  }
-}
