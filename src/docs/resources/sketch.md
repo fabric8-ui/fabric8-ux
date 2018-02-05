@@ -3,6 +3,7 @@ layout: default
 title: Sketch Assets
 navbar_active: sketch
 relative_path: ../../../
+permalink: sketch.html
 ---
 
 # Sketch Assets

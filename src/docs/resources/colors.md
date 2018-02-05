@@ -3,10 +3,11 @@ layout: default
 title: Color Palette
 navbar_active: colors
 relative_path: ../../../
+permalink: colors.html
 ---
 
-# Color Palette - Based Off Of PatternFly
-*OpenShift.io color palette*
+# Color Palette
+| based off of [PatternFly](http://www.patternfly.org/styles/color-palette/)
 
 ----
 
@@ -530,7 +531,6 @@ Use for general UI and backgrounds.</p>
     <div class="primary-color-swatches-margin">
     </div>
   </div>
-</div>
 </div>
 <div class="row row-gray">
   <div class="col-md-12 col-md-offset-12-top-spacer"></div>

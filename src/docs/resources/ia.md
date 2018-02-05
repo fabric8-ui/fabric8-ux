@@ -3,6 +3,7 @@ layout: default
 title: IA Sitemap
 navbar_active: ia
 relative_path: ../../../
+permalink: ia.html
 ---
 
 # OpenShift.io IA

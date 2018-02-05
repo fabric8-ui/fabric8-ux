@@ -5,8 +5,8 @@ navbar_active: home
 relative_path: ./
 ---
 
-# fabric8-ui design documentation
-*design documents and UX mockups for fabric8-ui and OpenShift.io*
+# fabric8-ux design documentation
+*design documents and UX mockups for fabric8-ui, fabric8-planner and OpenShift.io*
 
 ----
 
