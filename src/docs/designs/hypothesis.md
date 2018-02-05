@@ -2,7 +2,7 @@
 layout: designs
 title: Hypothesis Engine Designs
 navbar_active: hypothesis
-relative_path: ../../../
+relative_path: ../
 permalink: designs/hypothesis.html
 ---
 

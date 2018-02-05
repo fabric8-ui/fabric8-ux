@@ -2,7 +2,7 @@
 layout: designs
 title: Platform Designs
 navbar_active: platform
-relative_path: ../../../
+relative_path: ../
 permalink: designs/platform.html
 ---
 

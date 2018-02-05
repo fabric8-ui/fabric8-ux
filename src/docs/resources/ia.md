@@ -2,7 +2,7 @@
 layout: default
 title: IA Sitemap
 navbar_active: ia
-relative_path: ../../../
+relative_path: ../
 permalink: ia.html
 ---
 

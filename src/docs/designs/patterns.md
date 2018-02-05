@@ -2,7 +2,7 @@
 layout: designs
 title: fabric8 Patterns
 navbar_active: patterns
-relative_path: ../../../
+relative_path: ../
 permalink: designs/patterns.html
 ---
 

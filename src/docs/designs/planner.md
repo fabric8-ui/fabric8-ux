@@ -2,7 +2,7 @@
 layout: designs
 title: Planner Designs
 navbar_active: planner
-relative_path: ../../../
+relative_path: ../
 permalink: designs/planner.html
 ---
 

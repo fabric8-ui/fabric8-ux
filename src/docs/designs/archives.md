@@ -2,7 +2,7 @@
 layout: designs
 title: Archived Designs
 navbar_active: archives
-relative_path: ../../../
+relative_path: ../
 permalink: designs/archives.html
 ---
 <style>
