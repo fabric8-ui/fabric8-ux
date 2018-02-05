@@ -1,0 +1,32 @@
+.sort {
+  &::after {
+    margin-left: 5px;
+    font-family: FontAwesome;
+    content: '\f0dc';
+  }
+  &:hover,
+  &:active,
+  &:focus { text-decoration: none; }
+}
+.filter-control {
+  list-style: none;
+  padding: 0 5px;
+  li {
+    color: $color-pf-black;
+    margin: 2px 0;
+    padding: 5px;
+  }
+}
+.status-list {
+  .legend {
+    color: $color-pf-black;
+    text-align: right;
+  }
+  padding: 0 5px;
+  list-style: none;
+  li {
+    margin: 2px 0;
+    padding: 5px;
+    color: $color-pf-white;
+  }
+}
