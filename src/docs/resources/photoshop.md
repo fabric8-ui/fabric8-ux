@@ -2,7 +2,7 @@
 layout: default
 title: Photoshop Assets
 navbar_active: photoshop
-relative_path: ../
+relative_path: ./
 permalink: photoshop.html
 ---
 

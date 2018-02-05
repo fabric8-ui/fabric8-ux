@@ -3,6 +3,9 @@ layout: default
 title: HTML/CSS Code Guidelines
 navbar_active: guidelines
 relative_path: ./
+permalink: code-guidelines.html
+---
+
 ---
 
 # OpenShift.io HTML/CSS Code Guidelines
@@ -212,12 +215,12 @@ Example:
   // Box
   width: 100px;
   height: 100px;
-  
+
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
-  
+
   padding-top: 2px;
   padding-right: 2px;
   padding-bottom: 2px;

@@ -2,7 +2,7 @@
 layout: default
 title: Color Palette
 navbar_active: colors
-relative_path: ../
+relative_path: ./
 permalink: colors.html
 ---
 
