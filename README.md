@@ -1,5 +1,8 @@
-[![Build Status](https://travis-ci.org/fabric8-ui/fabric8-ux.svg?branch=master)](https://travis-ci.org/fabric8-ui/fabric8-ux)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Travis Build Status](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/fabric8-ui/fabric8-ux)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
+
+[![Platform Designs](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=Designs:Platform&style=flat-square)](https://fabric8-ui.github.io/fabric8-ux/designs/platform)
+[![Planner Designs](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=Designs:Planner&style=flat-square)](https://fabric8-ui.github.io/fabric8-ux/designs/planner)
 
 # User Experience Repo
 
@@ -53,3 +56,13 @@ If you are having issues with the site building, you can run two sets of clean c
 If you have issues with your gem bundles, you can run the following command:
 - `npm run bundle`
     - This will update the gem bundles. If you do not have node installed, just run `bundle update`.
+
+
+----
+
+
+##### resources
+* [PatternFly](https://www.patternfly.org)
+* [Bootstrap](https://getbootstrap.com)
+* [Travis](https://travis-ci.org/)
+* [Shields.io](https://shields.io/)
