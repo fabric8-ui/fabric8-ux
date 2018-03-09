@@ -24,14 +24,14 @@ All information is tracked by the User Experience Design Team.
 
 ## Important Links and References
 - Design Links
-    - [Platform](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/platform)
-    - [Planner](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/planner)
-    - [Bayesian](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/bayesian)
-    - [Hypothesis Engine](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/hypothesis)
-    - [fabric8 Patterns](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/patterns)
-    - [Archived Designs](https://fabric8-ui.github.io/fabric8-ux/src/docs/designs/archives)
-- [Information Architecture](https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/resources/ia.md)
-- [HTML/CSS Code Guidelines](https://github.com/fabric8-ui/fabric8-ux/blob/master/code-guidelines.md)
+    - [Platform](https://fabric8-ui.github.io/fabric8-ux/designs/platform)
+    - [Planner](https://fabric8-ui.github.io/fabric8-ux/designs/planner)
+    - [Bayesian](https://fabric8-ui.github.io/fabric8-ux/designs/bayesian)
+    - [Hypothesis Engine](https://fabric8-ui.github.io/fabric8-ux/designs/hypothesis)
+    - [fabric8 Patterns](https://fabric8-ui.github.io/fabric8-ux/designs/patterns)
+    - [Archived Designs](https://fabric8-ui.github.io/fabric8-ux/designs/archives)
+- [Information Architecture](https://fabric8-ui.github.io/fabric8-ux/ia)
+- HTML/CSS Code Guidelines [Markdown](https://github.com/fabric8-ui/fabric8-ux/blob/master/code-guidelines.md) | [HTML](https://fabric8-ui.github.io/fabric8-ux/ia)
 
 ----
 
@@ -62,7 +62,7 @@ All information is tracked by the User Experience Design Team.
       - `jekyll build`
     - if this script fails, at the `jekyll build` step, run `bundle exec jekyll build`
 3. run `jekyll serve`
-    - for viewing locally at http://localhost:4000
+    - for viewing locally at http://localhost:4000 (http://127.0.0.1:4000)
 
 ### Subsequent Builds
 1. `jekyll serve` to start your environment on port `:4000`.
@@ -71,7 +71,7 @@ All information is tracked by the User Experience Design Team.
 - If you are having issues with the site building, you can run a set of cleaning commands to reset your environment.
 - If you have issues with the ***gem bundler***, try to update your bundles with `bundle update`.
 
-#### Environment Troubles
+#### Environment Troubles?
 - `npm run reinstall`
     - This will clear out your **node_modules** folder, any vendor folders, reinstall all modules and copy vendor files back to their respective locations.
 - `gulp cleanVendors`
@@ -88,7 +88,7 @@ The navigation is based off of Bootstrap's navbar, and can be found under `_incl
 **Example:**
 
 ** this will apply the `.active` class to the page if "home" is the page's title.
-``` js
+```js
 {% if page.navbar_active == "home" %} class="active"{% endif %}
 ```
 
