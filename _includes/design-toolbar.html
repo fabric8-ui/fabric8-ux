@@ -1,28 +1,16 @@
-<div class="row toolbar-pf table-view-pf-toolbar" id="toolbar1">
-  <div class="col-sm-12">
-    <form class="toolbar-pf-actions">
-      <div class="form-group toolbar-pf-filter">
-        <label class="sr-only" for="filter">
-          Filter Designs
-        </label>
-        <div class="input-group">
-          <div class="input-group-btn">
-            <button type="button" class="btn btn-default dropdown-toggle" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Filter Designs <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a data-target="#" id="design">by Design</a>
-              </li>
-              <li>
-                <a data-target="#" id="designer">by Designer</a>
-              </li>
-            </ul>
-          </div>
-          <input type="text" class="form-control" placeholder="by Design..." autocomplete="off" id="designFilter" onkeyup="titleFunction()">
-          <input type="text" class="form-control hide" placeholder="by Designer..." autocomplete="off" id="designerFilter" onkeyup="designerFunction()">
+<div id="toolbar1" class="row mt-3 mb-3 ml-1">
+  <div class="col-sm-4">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <button id="filter" class="btn btn-secondary dropdown-toggle" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter Designs</button>
+        <div class="dropdown-menu" aria-labelledby="filter">
+          <a id="design" class="dropdown-item" data-target="#">by Design</a>
+            <a id="designer" class="dropdown-item" data-target="#">by Designer</a>
         </div>
       </div>
-    </form>
+      <input type="text" class="form-control" placeholder="by Design..." autocomplete="off" id="designFilter" onkeyup="titleFunction()">
+      <input type="text" class="form-control hide" placeholder="by Designer..." autocomplete="off" id="designerFilter" onkeyup="designerFunction()">
+    </div>
   </div>
 </div>

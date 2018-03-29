@@ -6,16 +6,32 @@ relative_path: ./
 permalink: sketch.html
 ---
 
-# Sketch Assets
-*design pattern assets for Sketch - available for download*
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="display-4">
+      Sketch Assets
+    </h1>
+  </div>
+  <div class="row mb-5">
+    <p class="lead">
+      design pattern assets for Sketch - available for download
+    </p>
+  </div>
+</div>
 
 ----
 
-### Available Sketch Files For Download
-**use these if you would like to contribute designs to fabric8**
+<div class="container-fluid">
+  <div class="row">
+    <h2>
+      Available Sketch Files For Download
+    </h2>
+  </div>
+  <div class="row mb-5">
+    <p class="lead">
+      use these if you would like to contribute designs to fabric8
+    </p>
+  </div>
+</div>
 
-<ul>
-  <li>
-    <a href="{{ page.relative_path }}src/docs/designs/assets/Fabric8_Symbols.sketch">fabric8 symbols <i class="fa fa-download" aria-hidden="true"></i></a>
-  </li>
-</ul>
+- [fabric8 symbols]({{ page.relative_path }}src/docs/designs/assets/Fabric8_Symbols.sketch) <i class="fa fa-download" aria-hidden="true"></i>

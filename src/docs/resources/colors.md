@@ -6,8 +6,18 @@ relative_path: ./
 permalink: colors.html
 ---
 
-# Color Palette
-| based off of [PatternFly](http://www.patternfly.org/styles/color-palette/)
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="display-4">
+      Color Palette
+    </h1>
+  </div>
+  <div class="row mb-5">
+    <p class="lead">
+      based off of <a href="http://www.patternfly.org/styles/color-palette/" target="blank">PatternFly</a>
+    </p>
+  </div>
+</div>
 
 ----
 
@@ -393,7 +403,7 @@ permalink: colors.html
 
   .white-text {
     color: #ffffff;
-  }   
+  }
 
   .row-gray {
     background: #f8f8f8;

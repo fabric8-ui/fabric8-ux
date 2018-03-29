@@ -7,15 +7,19 @@
     {% include design-toolbar.html %}
     <section>
       <div class="container-fluid">
-        <div class="col-sm-12">
-          <div class="col-sm-5">
-            <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+        <div class="row">
+          <div class="col-sm">
+            <h1 class="display-4">{% if page.title %}{{ page.title }}{% endif %}</h1>
           </div>
-          {% include design-legend.html %}
+          <div class="col-sm">
+            {% include design-legend.html %}
+          </div>
         </div>
       </div>
       <div class="container-fluid">
-        {{ content }}
+        <div class="row">
+          {{ content }}
+        </div>
       </div><!-- /.container -->
     </section>
     <script>

@@ -1,0 +1,143 @@
+:root {
+  --pf-global--light--BackgroundColor: #fff;
+  --pf-global--light-off--BackgroundColor: #ededed;
+  --pf-global--dark--BackgroundColor: #292e34;
+  --pf-global--dark-off--BackgroundColor: #393f44;
+  --pf-global--dark-color: #292e34;
+  --pf-global-dark-off-color: #bbb;
+  --pf-global--light-color: #fff;
+  --pf-global--light-off--Color: #ededed;
+  --pf-global--hover--Color: #c00;
+  --pf-global--hover--BackgroundColor: #8b0000;
+  --pf-global--hover--BorderColor: #8b0000;
+  --pf-global--active--Color: #0088ce;
+  --pf-global--active--BackgroundColor: #bee1f4;
+  --pf-global--active--BorderColor: #bee1f4;
+  --pf-global--disabled--Color: #bbb;
+  --pf-global--disabled--BackgroundColor: #ededed;
+  --pf-global--disabled--BorderColor: #ededed;
+  --pf-global--spacer--xxxs: 0.125rem;
+  --pf-global--spacer--xxs: 0.25rem;
+  --pf-global--spacer--xs: 0.5rem;
+  --pf-global--spacer--sm: 0.75rem;
+  --pf-global--spacer--md: 1rem;
+  --pf-global--spacer--lg: 1.25rem;
+  --pf-global--spacer--xl: 1.5rem;
+  --pf-global--spacer--xxl: 1.75rem;
+  --pf-global--spacer--xxxl: 2rem;
+  --pf-global--breakpoint--xs: 0;
+  --pf-global--breakpoint--sm: 576px;
+  --pf-global--breakpoint--md: 768px;
+  --pf-global--breakpoint--lg: 992px;
+  --pf-global--breakpoint--xl: 1200px;
+  --pf-global--primary-color: #39a5dc;
+  --pf-global--danger-color: #c00;
+  --pf-global--danger-color--dark: #8b0000;
+  --pf-global--success-color: #cfe7cd;
+  --pf-global--success-color--dark: #3f9c35;
+  --pf-global--warning-color: #fbdebf;
+  --pf-global--warning-color--dark: #ec7a08;
+  --pf-global--info-color: #bedee1;
+  --pf-global--info-color--dark: #007a87;
+  --pf-global--link--Color: #39a5dc;
+  --pf-global--link--TextDecoration: none;
+  --pf-global--link--hover--Color: #1e7baa;
+  --pf-global--link--hover--TextDecoration: underline;
+  --pf-global--BorderWidth: 1px;
+  --pf-global--dark--BorderColor: #bbb;
+  --pf-global--light--BorderColor: #bbb;
+  --pf-global--hero-title--FontSize: 3rem;
+  --pf-global--main-title--FontSize: 2rem;
+  --pf-global--secondary-title--FontSize: 1.5rem;
+  --pf-global--sub-title--FontSize: 1.1875rem;
+  --pf-global--body--FontSize: 1rem;
+  --pf-global--caption--FontSize: 0.75rem;
+  --pf-global--sm--LineHeight: 1.2;
+  --pf-global--md--LineHeight: 1.2;
+  --pf-global--lg--LineHeight: 1.2;
+  --pf-global--light--FontWeight: 300;
+  --pf-global--normal--FontWeight: 500;
+  --pf-global--semi-bold--FontWeight: 600;
+  --pf-global--bold--FontWeight: 700; }
+
+.pf-c-content a {
+  color: #39a5dc;
+  text-decoration: none; }
+  .pf-c-content a:hover {
+    color: #1e7baa;
+    text-decoration: underline; }
+
+.pf-c-content li + li {
+  margin-top: 0.25rem; }
+
+.pf-c-content p:not(:last-child),
+.pf-c-content dl:not(:last-child),
+.pf-c-content ol:not(:last-child),
+.pf-c-content ul:not(:last-child),
+.pf-c-content blockquote:not(:last-child),
+.pf-c-content pre:not(:last-child),
+.pf-c-content table:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.pf-c-content dl,
+.pf-c-content ol,
+.pf-c-content ul {
+  padding-left: 1rem; }
+
+.pf-c-content h1,
+.pf-c-content h2,
+.pf-c-content h3,
+.pf-c-content h4,
+.pf-c-content h5,
+.pf-c-content h6 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.5; }
+
+.pf-c-content h1 {
+  margin-bottom: 0.5rem;
+  font-size: 3rem; }
+  .pf-c-content h1:not(:first-child) {
+    margin-top: 1.25rem; }
+
+.pf-c-content h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem; }
+  .pf-c-content h2:not(:first-child) {
+    margin-top: 1.5rem; }
+
+.pf-c-content h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem; }
+  .pf-c-content h3:not(:first-child) {
+    margin-top: 1.25rem; }
+
+.pf-c-content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.1875rem; }
+
+.pf-c-content h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem; }
+
+.pf-c-content h6 {
+  margin-bottom: 1rem;
+  font-size: 0.75rem; }
+
+.pf-c-content blockquote {
+  padding: 1rem;
+  border-left: 5px solid #bbb; }
+
+.pf-c-content ol {
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+.pf-c-content ul {
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: 0.75rem; }
+  .pf-c-content ul ul {
+    margin-top: 0.5rem; }
+
+.pf-c-content dd {
+  margin-left: 1.5rem; }

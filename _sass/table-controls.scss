@@ -1,8 +1,17 @@
+.table {
+  margin-top: 20px;
+}
 .sort {
   &::after {
+    display: none;
     margin-left: 5px;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Solid";
     content: '\f0dc';
+  }
+  .svg-inline--fa {
+    margin-left: 0.25em;
+    font-size: 1em;
+    vertical-align: middle;
   }
   &:hover,
   &:active,
@@ -15,21 +24,17 @@
   list-style: none;
   padding: 0 5px;
   li {
-    color: $color-pf-black;
+    color: $pf-color-black-1000;
     margin: 2px 0;
     padding: 5px;
   }
 }
 .status-list {
   .legend {
-    color: $color-pf-black;
-    text-align: right;
+    color: $pf-color-black-1000;
   }
-  padding: 0 5px;
   list-style: none;
   li {
-    margin: 2px 0;
-    padding: 5px;
-    color: $color-pf-white;
+    color: $pf-color-white;
   }
 }

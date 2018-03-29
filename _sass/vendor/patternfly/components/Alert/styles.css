@@ -1,0 +1,108 @@
+:root {
+  --pf-global--light--BackgroundColor: #fff;
+  --pf-global--light-off--BackgroundColor: #ededed;
+  --pf-global--dark--BackgroundColor: #292e34;
+  --pf-global--dark-off--BackgroundColor: #393f44;
+  --pf-global--dark-color: #292e34;
+  --pf-global-dark-off-color: #bbb;
+  --pf-global--light-color: #fff;
+  --pf-global--light-off--Color: #ededed;
+  --pf-global--hover--Color: #c00;
+  --pf-global--hover--BackgroundColor: #8b0000;
+  --pf-global--hover--BorderColor: #8b0000;
+  --pf-global--active--Color: #0088ce;
+  --pf-global--active--BackgroundColor: #bee1f4;
+  --pf-global--active--BorderColor: #bee1f4;
+  --pf-global--disabled--Color: #bbb;
+  --pf-global--disabled--BackgroundColor: #ededed;
+  --pf-global--disabled--BorderColor: #ededed;
+  --pf-global--spacer--xxxs: 0.125rem;
+  --pf-global--spacer--xxs: 0.25rem;
+  --pf-global--spacer--xs: 0.5rem;
+  --pf-global--spacer--sm: 0.75rem;
+  --pf-global--spacer--md: 1rem;
+  --pf-global--spacer--lg: 1.25rem;
+  --pf-global--spacer--xl: 1.5rem;
+  --pf-global--spacer--xxl: 1.75rem;
+  --pf-global--spacer--xxxl: 2rem;
+  --pf-global--breakpoint--xs: 0;
+  --pf-global--breakpoint--sm: 576px;
+  --pf-global--breakpoint--md: 768px;
+  --pf-global--breakpoint--lg: 992px;
+  --pf-global--breakpoint--xl: 1200px;
+  --pf-global--primary-color: #39a5dc;
+  --pf-global--danger-color: #c00;
+  --pf-global--danger-color--dark: #8b0000;
+  --pf-global--success-color: #cfe7cd;
+  --pf-global--success-color--dark: #3f9c35;
+  --pf-global--warning-color: #fbdebf;
+  --pf-global--warning-color--dark: #ec7a08;
+  --pf-global--info-color: #bedee1;
+  --pf-global--info-color--dark: #007a87;
+  --pf-global--link--Color: #39a5dc;
+  --pf-global--link--TextDecoration: none;
+  --pf-global--link--hover--Color: #1e7baa;
+  --pf-global--link--hover--TextDecoration: underline;
+  --pf-global--BorderWidth: 1px;
+  --pf-global--dark--BorderColor: #bbb;
+  --pf-global--light--BorderColor: #bbb;
+  --pf-global--hero-title--FontSize: 3rem;
+  --pf-global--main-title--FontSize: 2rem;
+  --pf-global--secondary-title--FontSize: 1.5rem;
+  --pf-global--sub-title--FontSize: 1.1875rem;
+  --pf-global--body--FontSize: 1rem;
+  --pf-global--caption--FontSize: 0.75rem;
+  --pf-global--sm--LineHeight: 1.2;
+  --pf-global--md--LineHeight: 1.2;
+  --pf-global--lg--LineHeight: 1.2;
+  --pf-global--light--FontWeight: 300;
+  --pf-global--normal--FontWeight: 500;
+  --pf-global--semi-bold--FontWeight: 600;
+  --pf-global--bold--FontWeight: 700; }
+
+:root {
+  --pf-c-alert--PaddingTop: var(--pf-global--spacer--xs);
+  --pf-c-alert--PaddingRight: var(--pf-global--spacer--lg);
+  --pf-c-alert--PaddingBottom: var(--pf-global--spacer--xs);
+  --pf-c-alert--PaddingLeft: var(--pf-global--spacer--lg);
+  --pf-c-alert--MarginBottom: var(--pf-global--spacer--md);
+  --pf-c-alert--BorderWidth: var(--pf-global--BorderWidth);
+  --pf-c-alert__link--FontWeight: var(--pf-global--bold--FontWeight);
+  --pf-c-alert--is-success--BackgroundColor: var(--pf-global--success-color);
+  --pf-c-alert--is-success--Color: var(--pf-global--success-color--dark);
+  --pf-c-alert--is-success--BorderColor: var(--pf-global--success-color--dark);
+  --pf-c-alert--is-danger--BackgroundColor: var(--pf-global--danger-color);
+  --pf-c-alert--is-danger--Color: var(--pf-global--light-color);
+  --pf-c-alert--is-danger--BorderColor: var(--pf-global--danger-color--dark);
+  --pf-c-alert--is-warning--BackgroundColor: var(--pf-global--warning-color);
+  --pf-c-alert--is-warning--Color: var(--pf-global--warning-color--dark);
+  --pf-c-alert--is-warning--BorderColor: var(--pf-global--warning-color--dark);
+  --pf-c-alert--is-info--BackgroundColor: var(--pf-global--info-color);
+  --pf-c-alert--is-info--Color: var(--pf-global--info-color--dark);
+  --pf-c-alert--is-info--BorderColor: var(--pf-global--info-color--dark); }
+
+.pf-c-alert {
+  position: relative;
+  padding: var(--pf-c-alert--PaddingTop, 0.5rem) var(--pf-c-alert--PaddingRight, 2rem) var(--pf-c-alert--PaddingBottom, 0.5rem) var(--pf-c-alert--PaddingLeft, 2rem);
+  background-color: var(--pf-c-alert--BackgroundColor, transparent);
+  border: var(--pf-c-alert--BorderWidth, 1px) solid transparent; }
+  .pf-c-alert__heading {
+    color: inherit; }
+  .pf-c-alert__link {
+    font-weight: var(--pf-c-alert__link--FontWeight, bold); }
+  .pf-c-alert.pf-is-success {
+    color: var(--pf-c-alert--is-success--Color, #3f9c35);
+    background-color: var(--pf-c-alert--is-success--BackgroundColor, #cfe7cd);
+    border-color: var(--pf-c-alert--is-success--BorderColor, #3f9c35); }
+  .pf-c-alert.pf-is-danger {
+    color: var(--pf-c-alert--is-danger--Color, #fff);
+    background-color: var(--pf-c-alert--is-danger--BackgroundColor, #c00);
+    border-color: var(--pf-c-alert--is-danger--BorderColor, #8b0000); }
+  .pf-c-alert.pf-is-warning {
+    color: var(--pf-c-alert--is-warning--Color, #ec7a08);
+    background-color: var(--pf-c-alert--is-warning--BackgroundColor, #fbdebf);
+    border-color: var(--pf-c-alert--is-warning--BorderColor, #ec7a08); }
+  .pf-c-alert.pf-is-info {
+    color: var(--pf-c-alert--is-info--Color, #007a87);
+    background-color: var(--pf-c-alert--is-info--BackgroundColor, #bedee1);
+    border-color: var(--pf-c-alert--is-info--BorderColor, #007a87); }

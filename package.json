@@ -1,6 +1,6 @@
 {
   "name": "fabric8-ux",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "description": "OSIO User Experience",
   "main": "index.js",
   "directories": {
@@ -29,9 +29,8 @@
     "rimraf": "2.6.1"
   },
   "dependencies": {
-    "bootstrap-sass": "3.3.7",
-    "font-awesome": "4.7.0",
-    "jquery": "3.2.1",
-    "patternfly": "3.31.0"
+    "@patternfly/patternfly-next": "0.0.2",
+    "bootstrap": "^4.0.0",
+    "jquery": "3.3.1"
   }
 }

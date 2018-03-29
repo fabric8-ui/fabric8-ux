@@ -1,11 +1,34 @@
-.green { background-color: $color-pf-green-200 }
-.blue { background-color: $color-pf-blue-200; }
-.light-blue { background-color: $color-pf-blue-100; }
-.light-blue-text { color: $color-pf-black !important;}
-.orange { background-color: $color-pf-orange-200; }
-.purple { background-color: $color-pf-purple-200; color: $color-pf-white;}
-.red { background-color: $color-pf-red-100; color: $color-pf-white;}
+.green {
+  background-color: $pf-color-green-200;
+}
+
+.blue {
+  background-color: $pf-color-blue-200;
+}
+
+.light-blue {
+  background-color: $pf-color-blue-100;
+}
+
+.light-blue-text {
+  color: $pf-color-blue-700 !important;
+}
+
+.orange {
+  background-color: $pf-color-orange-200;
+}
+
+.purple {
+  background-color: $pf-color-purple-200;
+  color: $pf-color-white;
+}
+
+.red {
+  background-color: $pf-color-red-100;
+  color: $pf-color-white;
+}
+
 .grey {
-  background-color: $color-pf-black-300;
-  color: $color-pf-black-500 !important;
+  background-color: $pf-color-black-300;
+  color: $pf-color-black-500 !important;
 }

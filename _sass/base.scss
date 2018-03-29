@@ -1,9 +1,22 @@
-@import "patternfly/font-awesome.scss";
-@import "patternfly/patternfly/variables.scss";
+@import "vendor/patternfly/patternfly.scss";
 
 body {
-  font-size: $fa-font-size-base;
-  padding-top: 70px;
+  font-family: $pf-global--sans-serif--FontFamily;
+  font-size: $pf-global--body--FontSize;
 }
+h1 { font-size: $pf-global--main-title--FontSize; }
+h2 { font-size: $pf-global--secondary-title--FontSize; }
 .full-width { width: 100%; }
 .full-height { height: 100%; }
+.btn,
+.dropdown-menu,
+.form-control {
+  font-size: $pf-global--body--FontSize !important;
+}
+.form-control {
+  height: 38px;
+}
+.card-alignment {
+  margin: auto;
+  text-align: center;
+}

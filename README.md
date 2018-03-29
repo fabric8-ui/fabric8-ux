@@ -90,9 +90,7 @@ All information is tracked by the User Experience Design Team.
 
 ## Site Configuration
 
-The Design Tracker Template utilizes [PatternFly](https://www.patternfly.org) as the basis for the UI, which is built off of Bootstrap (3.x).
-
-- at this time, there are no plans to move the Design Tracker Template to use Bootstrap 4.x
+The Design Tracker Template utilizes [PatternFly-Next](https://github.com/patternfly/patternfly-next) as the basis for the UI, which is built off of Bootstrap v4.
 
 ### Navigation
 
@@ -130,6 +128,7 @@ permalink: designs/example1.html
 #### resources
 
 - [PatternFly](https://www.patternfly.org)
+- [PatternFly-Next](https://github.com/patternfly/patternfly-next)
 - [Bootstrap](https://getbootstrap.com)
 - [Travis](https://travis-ci.org/)
 - [Shields.io](https://shields.io/)

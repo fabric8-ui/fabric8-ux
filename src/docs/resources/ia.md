@@ -6,8 +6,18 @@ relative_path: ./
 permalink: ia.html
 ---
 
-# OpenShift.io IA
-*information architecture for the OpenShift.io environment*
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="display-4">
+      OpenShift.io IA
+    </h1>
+  </div>
+  <div class="row mb-5">
+    <p class="lead">
+      information architecture for the OpenShift.io environment
+    </p>
+  </div>
+</div>
 
 ----
 

@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
@@ -11,12 +10,13 @@
 // $fa-font-path:        "../fonts/font-awesome";
 
 // Imports
-@import "../_sass/patternfly/patternfly.scss";
+// @import "../_sass/patternfly/patternfly.scss";
 // @import "_bootstrap";
-@import "../_sass/patternfly/font-awesome.scss";
+// @import "../_sass/patternfly/font-awesome.scss";
+@import "../node_modules/@patternfly/patternfly-next/dist/patternfly.scss";
 
 // Site styles
 @import "colors";
 @import "base";
 @import "table-controls";
-@import "invision-links";
+@import "design-links";
