@@ -1,0 +1,470 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="fabric8 UXD">
+    <meta name="author" content="Adam J. Jolicoeur">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../assets/img/fabric8.png">
+    <title>Planner Designs</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <!-- Site JS -->
+    <script src="../assets/js/designSearch.js"></script>
+    <script src="../assets/js/designSort.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      FontAwesomeConfig = { searchPseudoElements: true };
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="../"">
+    <img src="../assets/img/fabric8.png" alt="fabric8 User Experience" width="25px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li  class="nav-item" >
+        <a class="nav-link" href="../">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" arias-haspopup="true" aria-expanded="false">Designs <span class="caret"></span></a>
+        <div class="dropdown-menu">
+          <a  class="dropdown-item"  href="../designs/platform">Platform</a>
+          <a  class="dropdown-item active"  href="../designs/planner">Planner</a>
+          <a  class="dropdown-item"  href="../designs/bayesian">Bayesian</a>
+          <a  class="dropdown-item"  href="../designs/hypothesis">Hypothesis Engine</a>
+          <div class="dropdown-divider"></div>
+          <a  class="dropdown-item"  href="../designs/patterns">fabric8 Patterns</a>
+          <div class="dropdown-divider"></div>
+          <a  class="dropdown-item"  href="../designs/archives">Archives</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Resources <span class="caret"></span></a>
+        <div class="dropdown-menu">
+          <a  class="dropdown-item"  href="../sketch">Sketch Components</a>
+          <a  class="dropdown-item"  class="dropdown-item" href="../photoshop">Photoshop Components</a>
+          <a  class="dropdown-item"  class="dropdown-item" href="../colors">Color Palette</a>
+        </div>
+      </li>
+      <li  class="nav-item" >
+        <a class="nav-link" href="../ia">Information Architecture</a>
+      </li>
+      <li  class="nav-item" >
+        <a class="nav-link" href="../research">Research</a>
+      </li>
+      <!-- <li  class="nav-item" >
+        <a class="nav-link" href="../code-guidelines">Code Guidelines</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GitHub Links
+          <span class="caret"></span>
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/issues" target="_blank">Issues</a>
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/milestones" target="_blank">Milestones</a>
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/wiki" target="_blank">Wiki</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/guides/code-guidelines.md" target="_blank">Code Guidelines</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <style>
+      .hide { display: none; }
+    </style>
+    <!-- Toolbar -->
+    <div id="toolbar1" class="row mt-3 mb-3 ml-1">
+  <div class="col-sm-4">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <button id="filter" class="btn btn-secondary dropdown-toggle" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter Designs</button>
+        <div class="dropdown-menu" aria-labelledby="filter">
+          <a id="design" class="dropdown-item" data-target="#">by Design</a>
+            <a id="designer" class="dropdown-item" data-target="#">by Designer</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" placeholder="by Design..." autocomplete="off" id="designFilter" onkeyup="titleFunction()">
+      <input type="text" class="form-control hide" placeholder="by Designer..." autocomplete="off" id="designerFilter" onkeyup="designerFunction()">
+    </div>
+  </div>
+</div>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <h1 class="display-4">Planner Designs</h1>
+          </div>
+          <div class="col-sm">
+            <div class="design-legend">
+  <ul class="status-list">
+    <li class="col-sm legend">LEGEND</li>
+  </ul>
+  <div class="col-sm" style="display: inline-flex;">
+    <ul class="col-sm list-group list-group-flush status-list">
+      <li class="list-group-item light-blue light-blue-text">In Progress</li>
+      <li class="list-group-item blue">Ready for Dev</li>
+      <li class="list-group-item green">UXD Verified</li>
+    </ul>
+    <ul class="col-sm list-group list-group-flush status-list">
+      <li class="list-group-item orange">Needs Updates</li>
+      <li class="list-group-item purple">Not Yet Started</li>
+      <li class="list-group-item red">Needs Review</li>
+    </ul>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><a href="javascript:SortTable(0);" id="designTableTitle" class="sort">Design</a></th>
+      <th style="text-align: left"><a href="javascript:SortTable(1);" id="designTableType" class="sort">Type</a></th>
+      <th style="text-align: left"><a href="javascript:SortTable(2);" id="designTableDesigner" class="sort">Designer</a></th>
+      <th style="text-align: left"><a href="javascript:SortTable(3);" id="designTableStatus" class="sort">Status<a></a></a></th>
+      <th style="text-align: left"><a href="javascript:SortTable(4, 'D', 'mdy');" id="designTableUpdate" class="sort">Last Updated</a></th>
+      <th style="text-align: left"><span id="designTableWILinks">Work Item Link</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/XS9EZV3WP">Add Work Item (Quick Add) - Desktop</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">08/31/2016</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/NU8YPHLJP">Add Work Item (Quick Add) - Desktop</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">10/14/2016</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/36">UX GitHub Issue 36</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/ZNBQM11YC">Add Work Item (Quick Add - In Context)</a>          </td>
+      <td style="text-align: left">Wireframe            </td>
+      <td style="text-align: left">Adam        </td>
+      <td style="text-align: left">Ready for Dev   </td>
+      <td style="text-align: left">05/22/2017  </td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/424">UX GitHub Issue 424</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/Y39KFTAE7">Add Work Item (Detail View Add)</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">12/01/2016</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/HJ9YNYX2T">Add Work Item (Detail View Add)</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/12/2016</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/67">UX GitHub Issue 67</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/KT9E5L9JZ">Assign User - Desktop</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Adam</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">11/19/2016</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/VK9L3RIUG">Assign User - Desktop</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/19/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/63">UX GitHub Issue 63</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/XD9ZNX7M7">Boards</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Melody</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/GWBAMBMSC">Boards</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Melody</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/136">UX GitHub Issue 136</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/AVAL74W9N">Collapsible left panel</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Sj</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/23/2017</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/6E9OIX4YB">Comments</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">12/14/2016</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/65">UX GitHub Issue 65</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/Q6AAQVO8X">Comments</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/01/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/192">UX GitHub Issue 192</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/QU9U8D8GF">Epics</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Sj</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">10/27/2016</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/136">UX GitHub Issue 136</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/GMA7LUFXV">Epics</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/01/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/96">UX GitHub Issue 96</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/56AH8F1XM">Filters</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Catherine</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/23/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/158">UX GitHub Issue 158</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/JHAOAEEYW">Filters - Updated (Nested) Filter Placement</a></td>
+      <td style="text-align: left">Visuals</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/01/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/269">UX GitHub Issue 269</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/5UAH0I2BE">IDE Access</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/02/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/152">UX GutHub Issue 152</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/KA9CAYL7M">Iterations</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Sj</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/20/2017</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/FR9R8G6B9">Iterations</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/23/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/66">UX GitHub Issue 66</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/YPB0J2NGB">Iterations - Child Iterations</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Sj and Cat</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/27/2017</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/GRAHX5HSQ">Markdown Indicator</a></td>
+      <td style="text-align: left">Wireframes</td>
+      <td style="text-align: left">Adam</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/15/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/163">UX GitHub Issue 163</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/M28SSTLRJ">Relationship Links</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/15/2016</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/83">UX GitHub Issue 83</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/2KABL3Y4Z">Relationship Links</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">03/02/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/90">UX GitHub Issue 90</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/YVA4PGYA3">Reordering Items (drag and drop) - Desktop</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Melody, Adam, Catherine</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/YBAUESBKG">Reordering Items (drag and drop)</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/221">UX GitHub Issue 221</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/6E8ZFBF2Q">Tags - Desktop</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Sj</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">10/27/2016</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/YVA4PGYA3">Work Item - Hierarchy</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Catherine</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/17/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/88">UX GitHub Issue 88</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/ZPB1VOOXS">Work Item - Hierarchy</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/134">UX GitHub Issue 134</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/4WB800RHD">Work Item - Detail Panel Holistic Review</a></td>
+      <td style="text-align: left">Visual</td>
+      <td style="text-align: left">Brian</td>
+      <td style="text-align: left">In Progress</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/286">UX GitHub Issue 286</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/8QACKL3AY">Work Item - Modular Behavior</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Monica</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">02/06/2017</td>
+      <td style="text-align: left"><a href="https://github.com/fabric8-ui/fabric8-ux/issues/314">UX GitHub Issue 314</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/JTF8802X6">Analytics-Stack Report UI Revamp</a></td>
+      <td style="text-align: left">Visual Design</td>
+      <td style="text-align: left">Ashish</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/10/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/d/main#/projects/prototypes/13058750">Analytics-Dependency Editor</a></td>
+      <td style="text-align: left">Wireframe</td>
+      <td style="text-align: left">Parvathy, Ashish</td>
+      <td style="text-align: left">In Progress</td>
+      <td style="text-align: left">01/16/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/NVEWGDU4W#/269980275_Iterations_00">Side Panel</a></td>
+      <td style="text-align: left">Visual Design</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/15/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/NVEWGDU4W#/268693254_Scenarios_00">Scenarios</a></td>
+      <td style="text-align: left">Visual Design</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/15/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/NVEWGDU4W#/268915396_Experience_00">Experiences</a></td>
+      <td style="text-align: left">Visual Design</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/15/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://redhat.invisionapp.com/share/NVEWGDU4W#/268923362_Requirements_00">Requirements</a></td>
+      <td style="text-align: left">Visual Design</td>
+      <td style="text-align: left">Sunil</td>
+      <td style="text-align: left">Ready for Dev</td>
+      <td style="text-align: left">01/15/2018</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="all-markdown-written-using-this-cheatsheet">All markdown written using this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">cheatsheet</a>.</h6>
+
+        </div>
+      </div><!-- /.container -->
+    </section>
+    <script>
+    $("table").addClass("table table-striped table-bordered table-hover").attr("id", "designTable");
+    // $("table").attr("id", "myTable2");
+    $("table>tbody>tr>td>a").attr("target", "top");
+    $("table>tbody>tr>td:contains('Needs Updates')").addClass("orange");
+    $("table>tbody>tr>td:contains('Needs Review')").addClass("red");
+    $("table>tbody>tr>td:contains('Done')").addClass("green");
+    $("table>tbody>tr>td:contains('Ready for Dev')").addClass("blue");
+    $("table>tbody>tr>td:contains('In Progress')").addClass("light-blue");
+    $("table>tbody>tr>td:contains('TBD')").addClass("grey");
+    $("table>tbody>tr>td:contains('Not Yet Started')").addClass("purple");
+    </script>
+    <p class="text-center">Copyright &copy; Red Hat UXD 2016-2018</p>
+</html>
+

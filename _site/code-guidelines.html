@@ -1,0 +1,849 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="fabric8 UXD">
+    <meta name="author" content="Adam J. Jolicoeur">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/img/fabric8.png">
+    <title>HTML/CSS Code Guidelines</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <!-- Site JS -->
+    <script src="./assets/js/designSearch.js"></script>
+    <script src="./assets/js/designSort.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      FontAwesomeConfig = { searchPseudoElements: true };
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="./"">
+    <img src="./assets/img/fabric8.png" alt="fabric8 User Experience" width="25px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li  class="nav-item" >
+        <a class="nav-link" href="./">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" arias-haspopup="true" aria-expanded="false">Designs <span class="caret"></span></a>
+        <div class="dropdown-menu">
+          <a  class="dropdown-item"  href="./designs/platform">Platform</a>
+          <a  class="dropdown-item"  href="./designs/planner">Planner</a>
+          <a  class="dropdown-item"  href="./designs/bayesian">Bayesian</a>
+          <a  class="dropdown-item"  href="./designs/hypothesis">Hypothesis Engine</a>
+          <div class="dropdown-divider"></div>
+          <a  class="dropdown-item"  href="./designs/patterns">fabric8 Patterns</a>
+          <div class="dropdown-divider"></div>
+          <a  class="dropdown-item"  href="./designs/archives">Archives</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Resources <span class="caret"></span></a>
+        <div class="dropdown-menu">
+          <a  class="dropdown-item"  href="./sketch">Sketch Components</a>
+          <a  class="dropdown-item"  class="dropdown-item" href="./photoshop">Photoshop Components</a>
+          <a  class="dropdown-item"  class="dropdown-item" href="./colors">Color Palette</a>
+        </div>
+      </li>
+      <li  class="nav-item" >
+        <a class="nav-link" href="./ia">Information Architecture</a>
+      </li>
+      <li  class="nav-item" >
+        <a class="nav-link" href="./research">Research</a>
+      </li>
+      <!-- <li  class="nav-item active" >
+        <a class="nav-link" href="./code-guidelines">Code Guidelines</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GitHub Links
+          <span class="caret"></span>
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/issues" target="_blank">Issues</a>
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/milestones" target="_blank">Milestones</a>
+          <a class="dropdown-item" href="https://github.com/fabric8io/fabric8-ux/wiki" target="_blank">Wiki</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://github.com/fabric8-ui/fabric8-ux/blob/master/src/docs/guides/code-guidelines.md" target="_blank">Code Guidelines</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <hr />
+
+<h1 id="openshiftio-htmlcss-code-guidelines">OpenShift.io HTML/CSS Code Guidelines</h1>
+<p><em>covering HTML, CSS (Less) and structure</em></p>
+
+<hr />
+
+<p>Please enforce these guidelines at all times. Small or large, call out what is incorrect.</p>
+
+<blockquote>
+  <p>Every line of code should appear to be written by a single person, no matter the number of contributors.</p>
+</blockquote>
+
+<p>This set of rules generate some constraints and conventions. If you run into instances where a convention is not obvious or a solution could be handled in a few different ways, contact the OpenShift.io community and have a conversation about how to handle it and update these guidelines when needed.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li>HTML
+    <ul>
+      <li><a href="#syntax">Syntax</a></li>
+      <li><a href="#attribute-order">Attribute order</a></li>
+      <li><a href="#reducing-markup">Reducing markup</a></li>
+    </ul>
+  </li>
+  <li>CSS
+    <ul>
+      <li><a href="#syntax-1">Syntax</a></li>
+      <li><a href="#declaration-order">Declaration order</a></li>
+      <li><a href="#prefixed-properties">Prefixed properties</a></li>
+      <li><a href="#single-declarations">Single declarations</a></li>
+      <li><a href="#shorthand-notation">Shorthand notation</a></li>
+      <li><a href="#comment-and-organization">Comment and Organization</a></li>
+      <li><a href="#naming-selectors">Naming Selectors</a></li>
+      <li><a href="#specificity">Specificity</a></li>
+      <li><a href="#less">Less</a></li>
+      <li><a href="#credits-and-references">Credits and references</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- ============================================================ -->
+
+<hr />
+
+<h1 id="html">HTML</h1>
+
+<p><strong>Practicality over purity</strong>. Strive to maintain HTML standards and semantics, but not at the expense of practicality. Use the least amount of markup with the fewest intricacies whenever possible.</p>
+
+<!-- ============================================================ -->
+
+<h2 id="syntax">Syntax</h2>
+
+<ul>
+  <li>Use soft tabs with two spaces.</li>
+  <li>Nested elements should be indented once (two spaces).</li>
+  <li>Always use double quotes, never single quotes, on attributes.</li>
+  <li>Don’t include a trailing slash in self-closing elements.</li>
+  <li>Don’t omit optional closing tags (e.g. &lt;/li&gt; or &lt;/body&gt;).</li>
+  <li>Don’t add a value to a boolean attribute e.g., <code class="highlighter-rouge">&lt;input type="text" disabled&gt;</code>.</li>
+  <li>Lowercase tag name.</li>
+  <li>Lowercase attribute name.</li>
+  <li>Use HTML5 elements where appropriate, e.g., <code class="highlighter-rouge">article</code>, <code class="highlighter-rouge">aside</code>, <code class="highlighter-rouge">figure</code>, <code class="highlighter-rouge">figcaption</code>, <code class="highlighter-rouge">header</code>, <code class="highlighter-rouge">footer</code>, <code class="highlighter-rouge">main</code>, <code class="highlighter-rouge">nav</code>, <code class="highlighter-rouge">section</code>.</li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Page title<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/company-logo.png"</span> <span class="na">alt=</span><span class="s">"Company"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"hello-world"</span><span class="nt">&gt;</span>Hello, world!<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<!-- ============================================================ -->
+
+<h2 id="attribute-order">Attribute order</h2>
+
+<p>HTML attributes should come in this particular order for easier reading of code.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">class</code></li>
+  <li><code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code></li>
+  <li><code class="highlighter-rouge">data-*</code></li>
+  <li><code class="highlighter-rouge">src</code>, <code class="highlighter-rouge">for</code>, <code class="highlighter-rouge">type</code>, <code class="highlighter-rouge">href</code>, <code class="highlighter-rouge">value</code></li>
+  <li><code class="highlighter-rouge">title</code>, <code class="highlighter-rouge">alt</code></li>
+  <li><code class="highlighter-rouge">role</code>, <code class="highlighter-rouge">aria-*</code></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"..."</span> <span class="na">id=</span><span class="s">"..."</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+  Example link
+<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<!-- ============================================================ -->
+
+<h2 id="reducing-markup">Reducing markup</h2>
+
+<p>Whenever possible, avoid superfluous parent elements when writing HTML. Take the following example:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Not so good --&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+
+<span class="c">&lt;!-- Better --&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">src=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>Preferably, we want to keep our lines of HTML to 128 characters or less. This is enforced in our code compiler configurations.</p>
+
+<!-- ============================================================ -->
+
+<hr />
+
+<h1 id="css">CSS</h1>
+
+<p>Before we discuss how we write out our rulesets, let’s first familiarize ourselves with relevant terminology:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[selector] {
+  [property]: [value];
+  [&lt;--declaration---&gt;]
+}
+[&lt;------rule--------&gt;]
+</code></pre></div></div>
+
+<p>For example:</p>
+
+<pre><code class="language-less">.foo {
+  display: block;
+}
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="syntax-1">Syntax</h2>
+
+<ul>
+  <li>Use soft tabs with two spaces.</li>
+  <li>When grouping selectors, keep individual selectors to a single line.</li>
+  <li>Include one space before the opening brace of declaration blocks for legibility.</li>
+  <li>Include a blank line between rules.</li>
+  <li>Place closing braces of declaration blocks on a new line.</li>
+  <li>Include one space after <code class="highlighter-rouge">:</code> for each declaration.</li>
+  <li>Each declaration should appear on its own line for more accurate error reporting.</li>
+  <li>End all declarations with a semi-colon, even the last one.</li>
+  <li>Comma-separated property values should include a space after each comma (e.g., <code class="highlighter-rouge">box-shadow</code>).</li>
+  <li>Don’t include spaces after commas within <code class="highlighter-rouge">rgb()</code>, <code class="highlighter-rouge">rgba()</code>, <code class="highlighter-rouge">hsl()</code>, <code class="highlighter-rouge">hsla()</code>, or <code class="highlighter-rouge">rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space).</li>
+  <li>Lowercase all hex values, e.g., <code class="highlighter-rouge">#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
+  <li>Use shorthand hex values where available, e.g., <code class="highlighter-rouge">#fff</code> instead of <code class="highlighter-rouge">#ffffff</code>.</li>
+  <li>Quote attribute values in selectors, e.g., <code class="highlighter-rouge">input[type="text"]</code>.  They’re only optional in some cases, and it’s a good practice for consistency.</li>
+  <li>Don’t prefix property values or color parameters with a leading zero (e.g., <code class="highlighter-rouge">.5</code> instead of <code class="highlighter-rouge">0.5</code> and <code class="highlighter-rouge">-.5em</code> instead of <code class="highlighter-rouge">-0.5em</code>).</li>
+  <li>Avoid specifying units for zero values, e.g., <code class="highlighter-rouge">margin: 0;</code> instead of <code class="highlighter-rouge">margin: 0px;</code>.</li>
+</ul>
+
+<pre><code class="language-less">// Bad
+.selector, .selector-secondary, .selector[type=text] {
+  padding:15px;
+  margin:0px 0px 15px;
+  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
+}
+
+// Good
+.selector,
+.selector__element,
+.selector[type="text"] {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
+}
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="declaration-order">Declaration order</h2>
+
+<p>Related property declarations should be grouped together following a logical order:</p>
+
+<ol>
+  <li>Positioning</li>
+  <li>Box model</li>
+  <li>Visual</li>
+  <li>Typography</li>
+</ol>
+
+<p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component’s dimensions and placement.</p>
+
+<p>Everything else takes place inside the component or without impacting the previous two sections, and thus they come last.</p>
+
+<p>For a complete list of properties and their order, please see <a href="http://manuals.gravitydept.com/code/css/properties">Field CSS Manuals</a>.</p>
+
+<p>Example:</p>
+<pre><code class="language-less">.declaration-order {
+  // Positioning
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 100;
+
+  // Box
+  width: 100px;
+  height: 100px;
+
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+
+  // Visual Box
+  background-color: #f5f5f5;
+  border: 1px solid #f7f7f7;
+
+  // Typography
+  color: #333;
+
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  text-align: center;
+
+  // Misc
+  opacity: 1;
+}
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="prefixed-properties">Prefixed properties</h2>
+
+<p>OpenShift.io uses <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>, run through Webpack, to deal with CSS vendor prefixes.</p>
+
+<p><strong>Do not add vendor prefixes</strong></p>
+
+<pre><code class="language-less">// Bad
+.selector {
+  -webkit-box-shadow: 0 1px 2px @color;
+          box-shadow: 0 1px 2px @color;
+}
+
+// Good
+.selector {
+  box-shadow: 0 1px 2px @color;
+}
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="single-declarations">Single declarations</h2>
+
+<p>To improve error detection in instances where a rule set includes only one declaration, remove line breaks for readability and faster editing. Any rule set with multiple declarations should be split to separate lines.</p>
+
+<pre><code class="language-less">// Single declarations on one line
+.span1 { width: 60px; }
+.span2 { width: 140px; }
+.span3 { width: 220px; }
+
+// Multiple declarations, one per line
+.sprite {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url(../img/sprite.png);
+}
+
+.icon            { background-position: 0 0; }
+.icon--home      { background-position: 0 -20px; }
+.icon--account   { background-position: 0 -40px; }
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="shorthand-notation">Shorthand notation</h2>
+
+<p>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">padding</code></li>
+  <li><code class="highlighter-rouge">margin</code></li>
+  <li><code class="highlighter-rouge">font</code></li>
+  <li><code class="highlighter-rouge">background</code></li>
+  <li><code class="highlighter-rouge">border</code></li>
+  <li><code class="highlighter-rouge">border-radius</code></li>
+</ul>
+
+<pre><code class="language-less">// Bad
+.element {
+  margin: 0 0 10px;
+  background: red;
+  background: url("image.jpg");
+  border-radius: 3px 3px 0 0;
+}
+
+// Good
+.element {
+  margin-bottom: 10px;
+  background-color: red;
+  background-image: url("image.jpg");
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+</code></pre>
+
+<p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
+
+<!-- ============================================================ -->
+
+<h2 id="comment-and-organization">Comment and Organization</h2>
+
+<p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
+
+<p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
+
+<p>Follow this comment structure:</p>
+
+<ol>
+  <li>License header</li>
+  <li>DocBlock</li>
+  <li>Sections</li>
+  <li>Line</li>
+</ol>
+
+<pre><code class="language-less">/**
+* Copyright 2016 Red Hat, Inc
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+//
+// Component heading
+// --------------------------------------------------
+//  Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
+
+// Section level Comment
+.selector {
+  line-height: 1.5; // Line level Comment
+  color: #333;
+}
+</code></pre>
+
+<h3 id="1-license-header">1. License header</h3>
+
+<!-- PatternFly is license under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). -->
+
+<p>Always add the <!-- Apache v2.0--> license header at the top of each less files.</p>
+<ul>
+  <li>Leave three blank lines bellow.</li>
+</ul>
+
+<h3 id="2-docblock">2. DocBlock</h3>
+
+<p>Includes the name of the component and an optional comment.</p>
+<ul>
+  <li>Leave three blank lines bellow.</li>
+</ul>
+
+<h3 id="3-section">3. Section</h3>
+
+<p>The Section comment is a section divider or describes a block of code.</p>
+
+<ul>
+  <li>Leave one blank lines above.</li>
+</ul>
+
+<h3 id="4-line">4. Line</h3>
+
+<p>Describes a specific line of code.</p>
+
+<!-- ============================================================ -->
+
+<h2 id="naming-selectors">Naming Selectors</h2>
+
+<p>Create names with useful or specific meaning via a mechanism that will not inhibit your and your team’s ability to recycle and reuse CSS.</p>
+
+<ul>
+  <li>Keep classes lowercase.</li>
+  <li>Use dashes to separate words (not underscores or camelCase).</li>
+  <li>Avoid excessive and arbitrary shorthand notation, e.g., <code class="highlighter-rouge">.btn</code> is useful for button, but <code class="highlighter-rouge">.s</code> doesn’t mean anything.</li>
+  <li>Keep classes as short and succinct as possible.</li>
+  <li>Use meaningful names, use structural or purposeful names over presentational.</li>
+  <li>Use <code class="highlighter-rouge">.js-*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
+  <li>Apply these same rules when creating Sass variable names.</li>
+</ul>
+
+<pre><code class="language-less">// Bad
+.t { ... }
+.red { ... }
+.header { ... }
+
+// Good
+.tweet { ... }
+.card { ... }
+.twee__header { ... }
+</code></pre>
+
+<h3 id="namespace">Namespace</h3>
+
+<p>To avoid conflicts, OpenShift.io prefixes all classes with <code class="highlighter-rouge">f8-</code>. This also helps differentiate OpenShift.io from PatternFly and Bootstrap class names.</p>
+
+<pre><code class="language-less">// Bad
+.selector {
+  ...
+}
+
+// Good
+.f8-selector {
+  ...
+}
+</code></pre>
+
+<h3 id="ids-and-classes">IDs and classes</h3>
+
+<p>Always use classes - avoid using an ID. Use classes over generic element tag for optimum rendering performance.</p>
+
+<pre><code class="language-less">// Bad
+.f8-card {
+  color: #000;
+
+  h2{
+    font-size: 2em;
+  }
+}
+
+// Good
+.f8-card { color: #000; }
+
+.f8-card--title{ font-size: 2em; }
+
+</code></pre>
+
+<h3 id="bem">BEM</h3>
+
+<p>OpenShift.io follows the <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">BEM methodology</a>. It’s a way to decouple CSS from HTML, and modularize class names so they can be extended.</p>
+
+<p>Class name structure follows the <code class="highlighter-rouge">__--</code> structure:</p>
+
+<pre><code class="language-less">.f8-block__element--modifier {}
+</code></pre>
+
+<p>Example:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"f8-panel io-panel--collapsible"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"f8-panel__title"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Heading<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"f8-panel__content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<pre><code class="language-less">.f8-panel {}                      // Block
+.f8-panel--collapsible {}         // Modifier of block
+
+.f8-panel__title {}               // Element
+
+.f8-panel__content {}             // Element
+.f8-panel__content--unpadded {}   // Modifier of element
+</code></pre>
+
+<p><strong>Why it’s better</strong></p>
+
+<ul>
+  <li>All the selectors have same specificity.</li>
+  <li>Every element is defined via a block.</li>
+  <li>Every modifier is defined via a block or element.</li>
+  <li>Each class name imparts structural info without binding to exact HTML.</li>
+</ul>
+
+<!-- ============================================================ -->
+
+<h2 id="specificity">Specificity</h2>
+
+<p>Always keep selectors as shallow as possible.</p>
+
+<pre><code class="language-less">// Bad
+.header .search-box input[type=search] + .button {}
+
+.f8-search-box {
+  .btn {}
+}
+
+// Good
+.f8-search__button {}
+</code></pre>
+
+<h3 id="nesting">Nesting</h3>
+
+<p>Avoid Less nesting, but if you must do it follow the <a href="http://thesassway.com/beginner/the-inception-rule">inception rule</a> and never go more than three layers deep.</p>
+
+<p>Limit nesting to the following use cases:</p>
+
+<ol>
+  <li>Media queries</li>
+  <li>Parent selectors</li>
+  <li>States, pseudo-classes and pseudo-elements</li>
+  <li>Overwrite Bootstrap</li>
+</ol>
+
+<p>For longer style blocks don’t nest the modifier code as it reduced the legibility of the code.</p>
+
+<h4 id="2-media-queries">2. Media queries</h4>
+
+<p>Component-specific media queries should be nested inside the component block. Use <a href="http://getbootstrap.com/css/#grid-media-queries">Bootstrap responsive breakpoints mixins</a> and remember that OpenShift.io is design to work on all devices.</p>
+
+<p><strong>Do progressive enhancement, not gracefully degrade.</strong></p>
+
+<pre><code class="language-less">.f8-nav {
+  ...
+
+  // Styles for small view ports and up
+  @include: media-breakpoint-up(sm) { ... }
+}
+</code></pre>
+
+<h4 id="3-parent-selectors">3. Parent selectors</h4>
+
+<p>Make use of the [precompiler’s parent selector](https://css-tricks.com/the-sass-ampersand/ mechanism. This allows all rules for a given component to be maintained in one location.</p>
+
+<pre><code class="language-less">.f8-primary-nav {
+  ...
+
+  // Nav appearing in header: Right-align navigation when it appears in the header
+  .f8-header &amp; {
+    margin-left: auto;
+  }
+}
+</code></pre>
+
+<p>All styles for <code class="highlighter-rouge">.f8-primary-nav</code> should be found in one place, rather than scattered throughout multiple partial files.</p>
+
+<h4 id="4-states-pseudo-classes-and-pseudo-elements">4. States, pseudo-classes and pseudo-elements</h4>
+
+<p>States of a component should be included as a nested element. This includes hover, focus, and active states:</p>
+
+<pre><code class="language-less">.btn {
+    background: blue;
+
+    &amp;:hover, &amp;:focus {
+        background: red;
+    }
+}
+</code></pre>
+
+<h4 id="5-overwrite-bootstrap-and-patternfly">5. Overwrite Bootstrap and PatternFly</h4>
+
+<p>Keep OpenShift.io code DRY. Reuse as much as you can from Bootstrap and PatternFly.</p>
+
+<p><strong>To overwrite Bootstrap:</strong></p>
+
+<ul>
+  <li>Create a new <code class="highlighter-rouge">f8-</code> block element to live beside the Bootstrap or PatternFly block instead of a modifier.</li>
+  <li>Be precise and accurate, introduce as little modifications as possible to achieve the design.</li>
+  <li>Base your styles on the original bootstrap less file.</li>
+  <li>Bootstrap uses a modified version of BEM: <code class="highlighter-rouge">--</code>.</li>
+</ul>
+
+<pre><code class="language-less">// OpenShift.io card block
+.f8-card {
+  border: none;
+
+  // Overwrite Bootstrap card header element
+  .card-header{
+    background: @card-pf-cap-bg;
+    border-bottom-color: @card-pf-border-color;
+  }
+
+  // Overwrite Bootstrap card footer element
+  .card-footer{
+    background: @card-pf-footer-bg;
+    border-top-color: @card-pf-border-color
+  }
+}
+
+// OpenShift.io card modifier
+.f8-card--accented {
+  border-top: 2px solid;
+  border-color: @color-pf-blue-300;
+}    
+</code></pre>
+
+<h3 id="important">!important</h3>
+
+<p>Never use <code class="highlighter-rouge">!important</code> to raise the specificity of a rule. In well architected CSS, this should never be required. If you think it is, rewrite the rules being inherited with high specificity that are causing problems.</p>
+
+<pre><code class="language-less">// Bad
+.some-form {
+  color: #000 !important;
+}
+</code></pre>
+
+<!-- ============================================================ -->
+
+<h2 id="less">Less</h2>
+
+<p>OpenShift.io uses <a href="http://">Less</a> to preprocess CSS.</p>
+
+<p>We limit our use of Less to:</p>
+
+<ul>
+  <li>variables</li>
+  <li>mixins</li>
+  <li>color functions</li>
+  <li>math functions</li>
+  <li>nesting</li>
+</ul>
+
+<p>Please don’t use loops or conditional statements unless absolutely necessary.</p>
+
+<h3 id="operators-in-less">Operators in Less</h3>
+
+<p>For improved readability, wrap all math operations in parentheses with a single space between values, variables, and operators.</p>
+
+<pre><code class="language-less">// Bad
+.element {
+  margin: 10px 0 @variable*2 10px;
+}
+
+// Good
+.element {
+  margin: 10px 0 (@variable * 2) 10px;
+}
+</code></pre>
+
+<h3 id="variables">Variables</h3>
+
+<p>A new variable should be created only when all of the following criteria are met:</p>
+
+<ul>
+  <li>the value is repeated at least twice</li>
+  <li>the value is likely to be updated at least once</li>
+  <li>all occurrences of the value are tied to the variable (i.e. not by coincidence).</li>
+  <li>variable format should follow the <code class="highlighter-rouge">@component-modifier-state-property</code> order.</li>
+</ul>
+
+<p>There is no point declaring a variable that will never be updated or that is only being used at a single place.</p>
+
+<p><strong>Don’t reinvent the wheel:</strong> Always use variables for spaces, colors, shadows and typography treatment.</p>
+
+<h3 id="mixins">Mixins</h3>
+
+<p>The rule of thumb is that if you happen to spot a group of CSS properties that always appear together for a reason (i.e. not a coincidence), you can put them in a mixin instead.</p>
+
+<p>Another valid example would be a mixin to size an element, defining both width and height at the same time. Not only would it make the code lighter to type, but also easier to read.</p>
+
+<p>The keyword for using mixins is <strong>simplicity</strong>:</p>
+
+<ul>
+  <li>Don’t over-engineer</li>
+  <li>Don’t over think your code</li>
+  <li>above all keep it simple.</li>
+</ul>
+
+<p>If a mixin ends up being longer than 20 lines or so, then it should be either split into smaller chunks or completely revised.</p>
+
+<pre><code class="language-less">// Helper to size an element
+// @param {Length} @width
+// @param {Length} @height
+
+.size(@width, @height: @width) {
+  width: @width;
+  height: @height;
+}
+</code></pre>
+
+<h3 id="extend">@extend:{}</h3>
+
+<p>Treat @extend:{} with respect. Use @extend:{} only for maintaining relationships within selectors. If two selectors are characteristically similar, that is the perfect use-case for @extend:{}. If they are unrelated but share some rules, a @mixin might suit you better.</p>
+
+<ul>
+  <li>Stick to extending placeholders, not existing CSS selectors. Use extend on %placeholders primarily, not on actual selectors.</li>
+  <li>Extend a placeholder as few times as possible in order to avoid side effects.</li>
+  <li>When extending classes, only extend a class with another class, never a complex selector.</li>
+  <li>Directly extend a %placeholder as few times as possible.</li>
+  <li>Avoid extending general ancestor selectors (e.g. .foo .bar) or general sibling selectors (e.g. .foo ~ .bar). This is what causes selector explosion.</li>
+</ul>
+
+<pre><code class="language-less">.button {
+  display: inline-block;
+  // … button styles
+
+  // Relationship: a %button that is a child of a %modal
+  .modal &gt; &amp; {
+    display: block;
+  }
+}
+
+.button {
+  @extend:{.button};
+}
+
+// Good
+.modal {
+  @extend:{.modal};
+}
+
+// Bad
+.modal {
+  @extend:{.modal};
+
+  &gt; .button {
+    @extend:{.button};
+  }
+}
+</code></pre>
+
+<h1 id="credits-and-references">Credits and references</h1>
+
+<p>This guide is inspired by people we follow and respect:</p>
+
+<ul>
+  <li><strong><a href="https://patternfly.org">PatternFly</a>:</strong> <a href="https://github.com/patternfly/patternfly-css/blob/master/CODE-GUIDELINES.md">PatternFly CSS Code Guidelines</a></li>
+  <li><strong><a href="http://markdotto.com/">Mark Otto</a>:</strong> <a href="http://codeguide.co/">Code Guidelines</a></li>
+</ul>
+
+        </div>
+      </div><!-- /.container -->
+    </section>
+  </body>
+</html>
