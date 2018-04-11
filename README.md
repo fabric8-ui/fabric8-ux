@@ -2,8 +2,6 @@
 
 # User Experience Repo
 
-Design Stories, Documents and UX Mockups related to the [fabric8-ui](https://github.com/fabric8-ui/fabric8-ui) and [fabric8-planner](https://github.com/fabric8-ui/fabric8-planner) repositories.
-
 All information is tracked by the User Experience Design Team.
 
 ---
