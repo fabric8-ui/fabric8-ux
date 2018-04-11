@@ -1,47 +1,11 @@
----
-layout: default
-title: fabric8 UXD - User Experience Design
-navbar_active: home
-relative_path: ./
----
-
-# fabric8-ux design documentation
+# UX Design Documentation
 *design documents and UX mockups for fabric8-ui, fabric8-planner and OpenShift.io*
 
 ----
 
-<div class="container-fluid">
-  <div class="col-sm-12">
-    <div class="container-fluid container-cards-pf">
-      <div class="row row-cards-pf">
-        <div class="card-pf card-pf-view">
-          <div class="card-pf-body">
-            <div class="card-pf-top-element">
-              <span class="fa fa-github card-pf-icon-circle"></span>
-            </div>
-            <h2 class="card-pf-title text-center">
-              fabric8-ux
-            </h2>
-            <p class="card-pf-info text-center">
-              This repo is for user experience issues related to <a href="https://github.com/fabric8-ui/fabric8-ui" target="_blank">fabric8-ui</a> and <a href="https://github.com/fabric8-ui/fabric8-planner" target="_blank">fabric8-planner</a>.
-            </p>
-            <p class="card-pf-info text-center">
-              All information is tracked by the User Experience Design Team.
-            </p>
-            <div class="card-pf-items text-center">
-              <div class="card-pf-item">
-                <a class="github-button" href="https://github.com/fabric8-ui/fabric8-ux/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch fabric8-ui/fabric8-ux on GitHub">Watch</a>
-              </div>
-              <div class="card-pf-item">
-                <a class="github-button" href="https://github.com/fabric8-ui/fabric8-ux" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star fabric8-ui/fabric8-ux on GitHub">Star</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-pf-view-checkbox">
-            <input type="checkbox">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+## fabric8-ux
+This repo is for user experience issues related to [fabric8-ui](https://github.com/fabric8-ui/fabric8-ui) and [fabric8-planner](https://github.com/fabric8-ui/fabric8-planner).
+
+All information is tracked by the User Experience Design Team.
+
+<a href="https://openshift.com" target="_blank"><img src="src/images/powered_by_openshift.png"></a>
